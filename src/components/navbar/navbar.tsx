@@ -1,13 +1,24 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import "./navbar.css";
 import companyLogo from "../../images/Vector (1).png";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const mobileMenuVariants = {
+    open: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.6, ease: "easeInOut" },
+    },
+    closed: {
+      opacity: 0,
+      y: -20,
+      transition: { duration: 0.6, ease: "easeInOut" },
+    },
+  };
   return (
-    <nav className="bg-white shadow-md px-6 py-4  z-50">
+    <nav className="bg-white shadow-md px-6 py-4 z-50 ">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <a
@@ -55,39 +66,42 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Mobile Menu with Framer Motion */}
-      <motion.div
-        initial={{ height: 0, opacity: 0 }}
-        animate={
-          isOpen ? { height: "auto", opacity: 1 } : { height: 0, opacity: 0 }
-        }
-        transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="navbar_mobile_links overflow-hidden md:hidden text-center"
-      >
-        <a
-          href="./AIScale"
-          className="block px-6 py-3 text-gray-700 hover:bg-gray-100"
-        >
-          AI Scale
-        </a>
-        <a
-          href="./CalorieTrackingApp"
-          className="block px-6 py-3 text-gray-700 hover:bg-gray-100"
-        >
-          Calorie Tracking App
-        </a>
-        <a
-          href="./Blog"
-          className="block px-6 py-3 text-gray-700 hover:bg-gray-100"
-        >
-          Blog
-        </a>
-        <a
-          href="./Shop"
-          className="block px-6 py-3 text-gray-700 hover:bg-gray-100"
-        >
-          Shop
-        </a>
-      </motion.div>
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            className="navbar_mobile_links z-50 absolute top-12 px-8  md:hidden flex flex-col bg-white border-t border-gray-200 mt-6 text-center"
+            variants={mobileMenuVariants}
+            initial="closed"
+            animate="open"
+            exit="closed"
+          >
+            <a
+              href="./AIScale"
+              className="block px-6 py-3 text-gray-700 hover:bg-gray-100"
+            >
+              AI Scale
+            </a>
+            <a
+              href="./CalorieTrackingApp"
+              className="block px-6 py-3 text-gray-700 hover:bg-gray-100"
+            >
+              Calorie Tracking App
+            </a>
+            <a
+              href="./Blog"
+              className="block px-6 py-3 text-gray-700 hover:bg-gray-100"
+            >
+              Blog
+            </a>
+            <a
+              href="./Shop"
+              className="block px-6 py-3 text-gray-700 hover:bg-gray-100"
+            >
+              Shop
+            </a>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </nav>
   );
 };

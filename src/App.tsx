@@ -1,12 +1,12 @@
 import React from "react";
 import "./output.css";
 import "./App.css";
-import MyAllComponent from "./MyAllComponent";
+import MyComponents from "./MyComponents";
 
 function App() {
   return (
     <div className="App mx-auto">
-      <MyAllComponent />
+      <MyComponents />
     </div>
   );
 }

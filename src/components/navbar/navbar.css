@@ -9,11 +9,31 @@
 nav {
   transition: all 0.3s ease-in-out;
 }
-
+.navbar_mobile_links {
+  width: 100%;
+  left: 0%;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 .navbar_mobile_links a {
   transition: background-color 0.3s ease-in-out;
+  border-bottom: 1px solid rgb(153, 152, 152);
 }
 
-.navbar_mobile_links a:hover {
+.navbar_mobile_links a:active {
   background-color: #f3f4f6;
+}
+.footer_horizontal_line {
+  /* padding-bottom: 20px; */
+  width: 90%;
+  margin: auto;
+  border: none;
+  opacity: 50%;
+  height: 1.2px;
+  background: linear-gradient(
+    to right,
+    transparent 3%,
+    black 50%,
+    transparent 90%
+  );
 }

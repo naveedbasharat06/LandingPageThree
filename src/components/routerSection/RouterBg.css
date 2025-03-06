@@ -1,0 +1,82 @@
+.router_background {
+  background-image: url("../../images/horizontalLine.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* Ensures the full image is always visible */
+  width: 100%;
+
+  z-index: 1;
+}
+.router_background .router img {
+  position: relative;
+  left: 37%;
+  top: 3%;
+}
+.router {
+  /* background-color: aquamarine; */
+}
+@media (max-width: 1024px) {
+  .router_background {
+    background-image: url("../../images/horizontalLine.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* Ensures the full image is always visible */
+    width: 100%;
+    z-index: 1;
+  }
+  .router_background .router img {
+    position: relative;
+    left: 37%;
+    top: 3%;
+    width: 380px;
+  }
+}
+@media (max-width: 768px) {
+  .router_background_mobileView {
+    background-image: url("../../images/Vector\ 1\ \(2\).png");
+  }
+  .router_background .router img {
+    position: relative;
+    left: 31%;
+    top: 3%;
+    width: 365px;
+  }
+}
+@media (max-width: 540px) {
+  .router_background {
+    background-image: url("../../images/Vector\ 1\ \(2\).png");
+    height: 60vh;
+  }
+  .router_background .router img {
+    position: relative;
+    left: 25%;
+    top: 0%;
+    width: 316px;
+    margin-top: 39px;
+  }
+}
+
+@media (max-width: 425px) {
+  .router_background {
+    background-image: url("../../images/Vector\ 1\ \(2\).png");
+  }
+  .router_background .router img {
+    position: relative;
+    left: 18%;
+    top: 0%;
+    width: 277px;
+    margin-top: 47px;
+  }
+}
+@media (max-width: 375px) {
+  .router_background {
+    background-image: url("../../images/Vector\ 1\ \(2\).png");
+  }
+  .router_background .router img {
+    position: relative;
+    left: 13%;
+    top: 0%;
+    width: 284px;
+    margin-top: 46px;
+  }
+}
