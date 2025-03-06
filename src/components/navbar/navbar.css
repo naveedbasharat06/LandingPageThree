@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("../../../src/assets/Helvetica.woff") format("woff"),
+    url("../../../src/assets/Helvetica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+nav {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar_mobile_links a {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar_mobile_links a:hover {
+  background-color: #f3f4f6;
+}
