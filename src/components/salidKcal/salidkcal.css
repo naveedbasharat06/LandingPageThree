@@ -1,0 +1,386 @@
+.meet_qalzy_title {
+  font-family: "Inter", sans-serif;
+}
+
+.meet_qalzy_tagLine {
+  font-family: "Inter", sans-serif;
+}
+
+.hover-area {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.hover-area.tomato {
+  position: absolute;
+  width: 12%;
+  top: 62%;
+  left: 25%;
+  /* background-color: burlywood; */
+}
+
+.hover-area.avocado {
+  width: 100px; /* Adjust based on your image */
+  height: 150px; /* Adjust based on your image */
+  top: 50px; /* Adjust based on your image */
+  right: 450px; /* Adjust based on your image */
+  /* background-color: aquamarine; */
+  border-radius: 20px;
+}
+
+.hover-area.lemon {
+  width: 100px; /* Adjust based on your image */
+  height: 100px; /* Adjust based on your image */
+  top: 150px; /* Adjust based on your image */
+  left: 500px; /* Adjust based on your image */
+}
+
+.calorie-box.tomato {
+  position: absolute;
+  background: white;
+  bottom: 10%;
+  left: 17%;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 3;
+}
+.calorie-box.avocado {
+  position: absolute;
+  background: white;
+  top: 10%;
+  right: 17%;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 3;
+}
+.salidMeasureKcalEffect_tomato {
+  position: absolute;
+  top: 64%;
+  left: 26%;
+  flex-direction: column;
+  gap: 10%;
+}
+.salidMeasureKcalEffect_Avocado {
+  position: absolute;
+  top: 7%;
+  right: 31%;
+  flex-direction: column;
+  gap: 10%;
+}
+@media (max-width: 1366px) {
+  .hover-area {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+  }
+
+  .hover-area.tomato {
+    width: 12%;
+    top: 62%;
+    left: 23%;
+    /* background-color: burlywood; */
+  }
+
+  .hover-area.avocado {
+    width: 100px; /* Adjust based on your image */
+    height: 150px; /* Adjust based on your image */
+    top: 50px; /* Adjust based on your image */
+    right: 450px; /* Adjust based on your image */
+    /* background-color: aquamarine; */
+    border-radius: 20px;
+  }
+
+  .hover-area.lemon {
+    width: 100px; /* Adjust based on your image */
+    height: 100px; /* Adjust based on your image */
+    top: 150px; /* Adjust based on your image */
+    left: 500px; /* Adjust based on your image */
+  }
+
+  .calorie-box.tomato {
+    bottom: 10%;
+    left: 11%;
+  }
+  .calorie-box.avocado {
+    top: 17%;
+    right: 17%;
+  }
+  .salidMeasureKcalEffect_tomato {
+    position: absolute;
+    top: 64%;
+    left: 24%;
+  }
+  .salidMeasureKcalEffect_Avocado {
+    top: 7%;
+    right: 30%;
+  }
+}
+@media (max-width: 1280px) {
+  .hover-area {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+  }
+
+  .hover-area.tomato {
+    width: 14%;
+    top: 61%;
+    left: 20%;
+    /* background-color: burlywood; */
+  }
+
+  .hover-area.avocado {
+    width: 117px; /* Adjust based on your image */
+    height: 150px; /* Adjust based on your image */
+    top: 38px; /* Adjust based on your image */
+    right: 382px; /* Adjust based on your image */
+    /* background-color: aquamarine; */
+    border-radius: 20px;
+  }
+
+  .hover-area.lemon {
+    width: 100px; /* Adjust based on your image */
+    height: 100px; /* Adjust based on your image */
+    top: 150px; /* Adjust based on your image */
+    left: 500px; /* Adjust based on your image */
+  }
+
+  .calorie-box.tomato {
+    bottom: 10%;
+    left: 9%;
+  }
+  .calorie-box.avocado {
+    top: 17%;
+    right: 15%;
+  }
+  .salidMeasureKcalEffect_tomato {
+    position: absolute;
+    top: 64%;
+    left: 22%;
+  }
+  .salidMeasureKcalEffect_Avocado {
+    top: 7%;
+    right: 29%;
+  }
+}
+@media (max-width: 1024px) {
+  .hover-area {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+  }
+
+  .hover-area.tomato {
+    width: 15%;
+    top: 61%;
+    left: 16%;
+    /* background-color: burlywood; */
+  }
+
+  .hover-area.avocado {
+    width: 117px; /* Adjust based on your image */
+    height: 150px; /* Adjust based on your image */
+    top: 38px; /* Adjust based on your image */
+    right: 263px; /* Adjust based on your image */
+    /* background-color: aquamarine; */
+    border-radius: 20px;
+  }
+
+  .hover-area.lemon {
+    width: 100px; /* Adjust based on your image */
+    height: 100px; /* Adjust based on your image */
+    top: 150px; /* Adjust based on your image */
+    left: 500px; /* Adjust based on your image */
+  }
+
+  .calorie-box.tomato {
+    bottom: 10%;
+    left: 6%;
+  }
+  .calorie-box.avocado {
+    top: 17%;
+    right: 8%;
+  }
+  .salidMeasureKcalEffect_tomato {
+    position: absolute;
+    top: 64%;
+    left: 17%;
+  }
+  .salidMeasureKcalEffect_Avocado {
+    top: 7%;
+    right: 24%;
+  }
+}
+@media (max-width: 768px) {
+  .hover-area {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+  }
+
+  .hover-area.tomato {
+    width: 15%;
+    top: 61%;
+    left: 16%;
+    /* background-color: burlywood; */
+  }
+
+  .hover-area.avocado {
+    width: 105px; /* Adjust based on your image */
+    height: 131px; /* Adjust based on your image */
+    top: 23px; /* Adjust based on your image */
+    right: 176px; /* Adjust based on your image */
+    /* background-color: aquamarine; */
+    border-radius: 20px;
+  }
+
+  .hover-area.lemon {
+    width: 100px; /* Adjust based on your image */
+    height: 100px; /* Adjust based on your image */
+    top: 150px; /* Adjust based on your image */
+    left: 500px; /* Adjust based on your image */
+  }
+
+  .calorie-box.tomato {
+    bottom: 46%;
+    left: 5%;
+  }
+  .calorie-box.avocado {
+    top: 17%;
+    right: 5%;
+  }
+  .salidMeasureKcalEffect_tomato {
+    position: absolute;
+    top: 64%;
+    left: 15%;
+  }
+  .salidMeasureKcalEffect_Avocado {
+    top: 7%;
+    right: 20%;
+  }
+}
+@media (max-width: 540px) {
+  .hover-area {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+  }
+
+  .hover-area.tomato {
+    width: 17%;
+    top: 61%;
+    left: 16%;
+    /* background-color: burlywood; */
+  }
+
+  .hover-area.avocado {
+    width: 96px; /* Adjust based on your image */
+    height: 102px; /* Adjust based on your image */
+    top: 10px; /* Adjust based on your image */
+    right: 119px; /* Adjust based on your image */
+    /* background-color: aquamarine; */
+    border-radius: 20px;
+  }
+
+  .hover-area.lemon {
+    width: 100px; /* Adjust based on your image */
+    height: 100px; /* Adjust based on your image */
+    top: 150px; /* Adjust based on your image */
+    left: 500px; /* Adjust based on your image */
+  }
+
+  .calorie-box.tomato {
+    bottom: 46%;
+    left: 5%;
+  }
+  .calorie-box.avocado {
+    top: -14%;
+    right: 4%;
+  }
+  .salidMeasureKcalEffect_tomato {
+    position: absolute;
+    top: 64%;
+    left: 15%;
+  }
+  .salidMeasureKcalEffect_Avocado {
+    top: 7%;
+    right: 20%;
+  }
+  .mobileViewsalidUperCropedEffect {
+    /* background-image: url("../../images/mobileViewUperCrop.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 111px;
+  }
+  .mobileViewsalidBelowCropedEffect {
+    /* background-image: url("../../images/mobileViewBelowCrop.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 111px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 425px) {
+  .hover-area {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+  }
+
+  .hover-area.tomato {
+    width: 17%;
+    top: 61%;
+    left: 16%;
+    /* background-color: burlywood; */
+  }
+
+  .hover-area.avocado {
+    width: 96px; /* Adjust based on your image */
+    height: 102px; /* Adjust based on your image */
+    top: 5px; /* Adjust based on your image */
+    right: 84px; /* Adjust based on your image */
+    /* background-color: aquamarine; */
+    border-radius: 20px;
+  }
+
+  .hover-area.lemon {
+    width: 100px; /* Adjust based on your image */
+    height: 100px; /* Adjust based on your image */
+    top: 150px; /* Adjust based on your image */
+    left: 500px; /* Adjust based on your image */
+  }
+
+  .calorie-box.tomato {
+    bottom: 46%;
+    left: 5%;
+  }
+  .calorie-box.avocado {
+    top: -14%;
+    right: 4%;
+  }
+  .salidMeasureKcalEffect_tomato {
+    position: absolute;
+    top: 59%;
+    left: 15%;
+  }
+  .salidMeasureKcalEffect_Avocado {
+    top: 7%;
+    right: 20%;
+  }
+  .mobileViewsalidUperCropedEffect {
+    /* background-image: url("../../images/mobileViewUperCrop.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 85px;
+  }
+  .mobileViewsalidBelowCropedEffect {
+    /* background-image: url("../../images/mobileViewBelowCrop.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 85px;
+    margin-top: 50px;
+  }
+}

@@ -1,8 +1,64 @@
 .kcal_measureByAI {
   padding-top: 94px;
+  background-color: #f9f9f9;
 }
 .kcal_measureByAI_content {
 }
 .kcal_measureByAI_content h2 {
   font-family: sans-serif !important;
+  font-weight: 700;
+}
+.kcal_measureByAI_content p {
+  font-family: sans-serif;
+  margin-top: 16px;
+  font-size: 16px;
+}
+.kcal_measureByAI_PauseVideoIcon {
+  position: absolute;
+  width: 130px;
+  left: 48%;
+  top: 34%;
+}
+.kcal_measureByAI_Video {
+  position: relative;
+  /* width: 1140px;
+  height: 650px; */
+  width: 78%;
+}
+@media (max-width: 1024px) {
+  .kcal_measureByAI_Video {
+    position: relative;
+    /* width: 1140px;
+    height: 650px; */
+    width: 85%;
+  }
+  .kcal_measureByAI_PauseVideoIcon {
+    position: absolute;
+    width: 98px;
+    left: 46%;
+    top: 32%;
+  }
+}
+@media (max-width: 768px) {
+  .kcal_measureByAI_Video {
+    position: relative;
+    width: 93%;
+    height: auto;
+  }
+}
+@media (max-width: 425px) {
+  .kcal_measureByAI_Video {
+    position: relative;
+    width: 90%;
+    height: auto;
+  }
+  .kcal_measureByAI_PauseVideoIcon {
+    position: absolute;
+    width: 58px;
+    left: 46%;
+    top: 31%;
+  }
+  .kcal_measureByAI_content p {
+    padding: 0px 4px;
+  }
 }
