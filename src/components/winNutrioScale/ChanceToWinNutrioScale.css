@@ -1,0 +1,25 @@
+.NutrioScaleWinningChange_bg {
+  background-image: url("../../images/nutrioScale-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 713px;
+  position: relative;
+  background-position: center;
+  font-family: "Encode Sans Condensed", sans-serif;
+}
+@media (max-width: 768px) {
+  .NutrioScaleWinningChange_bg_Mobile {
+    background-image: url("../../images/nutrioScaleMobile.jpg"); /* Replace with your actual mobile image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (max-width: 425px) {
+  .NutrioScaleWinningChange_bg_Mobile {
+    background-image: url("../../images/nutrioScaleMobile.jpg");
+
+    height: 713px;
+  }
+}

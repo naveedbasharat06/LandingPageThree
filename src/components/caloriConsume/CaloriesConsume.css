@@ -1,7 +1,7 @@
 /* Position the pagination inside the card */
 .swiper-pagination {
   position: absolute !important;
-  top: 46% !important;
+  top: 34% !important;
   left: -37% !important;
   transform: translateX(-50%);
   z-index: 10;
@@ -45,7 +45,7 @@
   border-radius: 20px;
   z-index: 2;
   height: 427px !important;
-  top: 10%;
+  top: 14%;
   left: 0%;
   width: 86%;
   display: flex;
@@ -56,8 +56,8 @@
 }
 .calorieConsume_Progress_card {
   position: absolute;
-  top: 3%;
-  left: 3%;
+  top: -8%;
+  left: 2%;
   width: 275px;
   height: 200px;
   background-color: white !important;
@@ -72,7 +72,8 @@
 .caloriesComsumed_progressBar_flex {
 }
 .mySwiper {
-  position: absolute;
+  /* position: absolute; */
+  overflow: visible;
 }
 
 .Apple_calorie_card {
@@ -85,13 +86,19 @@
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.apple_slice_weight {
+  position: relative;
+  z-index: 20;
+  right: 1%;
+  top: -5%;
+}
 /* maximum 1366px width device style */
 @media (max-width: 1366px) {
   /* Position the pagination inside the card */
   .swiper-pagination {
     position: absolute !important;
-    top: 42% !important;
-    left: -36% !important;
+    top: 28% !important;
+    left: -37% !important;
     transform: translateX(-50%);
     z-index: 10;
     display: flex;
@@ -110,16 +117,15 @@
     height: 470px !important;
     top: 15%;
     left: 0%;
-    width: 90%;
+    width: 85%;
 
     /* border-radius: 40px; */
   }
   .calorieConsume_Progress_card {
-    top: 2%;
-    left: 1%;
+    top: -10%;
+    left: 2%;
     width: 275px;
     height: 200px;
-
     border-radius: 20px;
     padding: 12px;
   }
@@ -134,13 +140,19 @@
     width: 210px;
     height: 87px;
   }
+  .apple_slice_weight {
+    position: relative;
+    z-index: 20;
+    right: 2%;
+    top: -5%;
+  }
 }
 @media (max-width: 1024px) {
   /* Position the pagination inside the card */
   .swiper-pagination {
     position: absolute !important;
-    top: 42% !important;
-    left: -36% !important;
+    top: 29% !important;
+    left: -32% !important;
     transform: translateX(-50%);
     z-index: 10;
     display: flex;
@@ -159,18 +171,17 @@
     height: 470px !important;
     top: 15%;
     left: 0%;
-    width: 90%;
+    width: 85%;
 
     /* border-radius: 40px; */
   }
   .calorieConsume_Progress_card {
-    top: 2%;
-    left: 1%;
-    width: 275px;
-    height: 200px;
-
+    top: -7%;
+    left: 4%;
+    width: 265px;
+    height: 192px;
     border-radius: 20px;
-    padding: 12px;
+    padding: 10px;
   }
   .caloriesComsumed_progressBar_flex {
   }
@@ -181,20 +192,22 @@
   .Apple_calorie_card {
     right: -3%;
     top: 24%;
-    width: 210px;
+    width: 185px;
     height: 87px;
+    border-radius: 15px;
   }
   .apple_slice_weight {
-    bottom: 20%;
-    left: 4%;
+    top: -20%;
+    left: -4%;
+    width: 123px;
   }
 }
 @media (max-width: 768px) {
   /* Position the pagination inside the card */
   .swiper-pagination {
     position: absolute !important;
-    top: 38% !important;
-    left: -27% !important;
+    top: 17% !important;
+    left: -29% !important;
     transform: translateX(-50%);
     z-index: 10;
     display: flex;
@@ -204,26 +217,26 @@
 
   .CaloriesCosumed_main {
     max-width: 768px;
-    height: 363px;
+    height: 390px;
   }
   .calorieConsumed_wraper {
     margin: auto;
     border-radius: 20px !important;
     z-index: 2;
     height: 470px !important;
-    top: 15%;
+    top: 23%;
     left: 0%;
-    width: 90%;
+    width: 85%;
 
     /* border-radius: 40px; */
   }
   .calorieConsume_Progress_card {
-    top: 1%;
-    left: 1%;
-    width: 250px;
-    height: 190px;
+    top: -9%;
+    left: 4%;
+    width: 235px;
+    height: 150px;
     border-radius: 20px;
-    padding: 12px;
+    padding: 5px 10px;
   }
   .caloriesComsumed_progressBar_flex {
   }
@@ -232,14 +245,14 @@
   }
 
   .Apple_calorie_card {
-    right: -3%;
-    top: 18%;
+    right: -4%;
+    top: 15%;
     width: 200px;
     height: 80px;
   }
   .apple_slice_weight {
-    bottom: 26%;
-    left: 4%;
+    top: -30%;
+    left: -5%;
     width: 120px;
   }
 }
@@ -247,8 +260,8 @@
   /* Position the pagination inside the card */
   .swiper-pagination {
     position: absolute !important;
-    top: 36% !important;
-    left: -22% !important;
+    top: 13% !important;
+    left: -31% !important;
     transform: translateX(-50%);
     z-index: 10;
     display: flex;
@@ -272,12 +285,12 @@
     /* border-radius: 40px; */
   }
   .calorieConsume_Progress_card {
-    top: 1%;
-    left: 1%;
-    width: 250px;
-    height: 190px;
-    border-radius: 20px;
-    padding: 12px;
+    top: -10%;
+    left: 5%;
+    width: 177px;
+    height: 125px;
+    border-radius: 15px;
+    padding: 3px 7px;
   }
   .caloriesComsumed_progressBar_flex {
   }
@@ -288,12 +301,77 @@
   .Apple_calorie_card {
     right: -3%;
     top: 14%;
-    width: 192px;
-    height: 78px;
+    width: 150px;
+    height: 66px;
   }
   .apple_slice_weight {
-    bottom: 30%;
-    left: 4%;
-    width: 120px;
+    top: -30%;
+    left: -4%;
+    width: 90px;
+  }
+}
+@media (max-width: 425px) {
+  /* Position the pagination inside the card */
+  .swiper-pagination {
+    position: absolute !important;
+    top: 15% !important;
+    left: -24% !important;
+    transform: translateX(-50%);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    width: 10%;
+  }
+  /* Swiper pagination dots */
+  .swiper-pagination-bullet {
+    background-color: #1c1d1c !important;
+    width: 6px;
+    height: 6px;
+    opacity: 1;
+  }
+  /* Active pagination dot */
+  .swiper-pagination-bullet-active {
+    background-color: #4caf4f !important;
+    width: 6px;
+    height: 6px;
+  }
+  .CaloriesCosumed_main {
+    max-width: 425px;
+    height: 330px;
+  }
+  .calorieConsumed_wraper {
+    margin: auto;
+    border-radius: 20px !important;
+    z-index: 2;
+    height: 470px !important;
+    top: 30%;
+    left: 0%;
+    width: 90%;
+
+    /* border-radius: 40px; */
+  }
+  .calorieConsume_Progress_card {
+    top: -7%;
+    left: 7%;
+    width: 153px;
+    height: 117px;
+    border-radius: 15px;
+    padding: 3px 7px;
+  }
+  .caloriesComsumed_progressBar_flex {
+  }
+  .mySwiper {
+    position: absolute;
+  }
+  .Apple_calorie_card {
+    right: -3%;
+    top: 7%;
+    width: 125px;
+    height: 58px;
+  }
+  .apple_slice_weight {
+    top: -39%;
+    left: -7%;
+    width: 80px;
   }
 }

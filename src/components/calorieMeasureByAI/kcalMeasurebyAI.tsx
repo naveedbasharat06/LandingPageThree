@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./kcalMeasureByAI.css";
 import CalorieMeaureByAiVideo from "../../images/image 50.png";
-import videoPlayIcon from "../../images/Polygon 2.png";
+import videoPlayIcon from "../../images/Polygon 1.png";
+import videoPauseIcon from "../../images/palyIcon.jpg";
 const CaloriesMeasureByAI: React.FC = () => {
+  const [playVideoIcon, SetPlayVideoIcon] = useState(videoPlayIcon);
+  const handleChangeIcon = (e: any) => {
+    e.preventDefault();
+    SetPlayVideoIcon((prevIcon: any) =>
+      prevIcon === videoPlayIcon ? videoPauseIcon : videoPlayIcon
+    );
+  };
   return (
     <div className=" kcal_measureByAI mx-auto">
       <div className="kcal_measureByAI_content relative mx-auto text-center w-[90%] md:w-[546px]">
@@ -26,8 +34,9 @@ const CaloriesMeasureByAI: React.FC = () => {
           allowFullScreen
         ></iframe> */}
         <img
-          className=" kcal_measureByAI_PauseVideoIcon z-10"
-          src={videoPlayIcon}
+          className=" kcal_measureByAI_PauseVideoIcon z-10 cursor-pointer"
+          src={playVideoIcon}
+          onClick={handleChangeIcon}
           alt="video"
         />
         <img

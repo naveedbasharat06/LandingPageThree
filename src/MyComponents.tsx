@@ -6,6 +6,9 @@ import RouterBackground from "./components/routerSection/RouterBg";
 import MeasureSalidkcal from "./components/salidKcal/salidkcal";
 import CaloriesMeasureByAI from "./components/calorieMeasureByAI/kcalMeasurebyAI";
 import CaloriesConsumedMeasure from "./components/caloriConsume/CaloriesConsume";
+import TrackCalories from "./components/TrackCalorieByMachine/TrackCalories";
+import MostAccurateTrackkcal from "./components/mostAccurateTrackCalories/AccurateTrackKcal";
+import ChanceToWinNutrioScale from "./components/winNutrioScale/ChanceToWinNutrioScale";
 
 const MyComponents: React.FC = () => {
   return (
@@ -17,6 +20,9 @@ const MyComponents: React.FC = () => {
       <MeasureSalidkcal />
       <CaloriesMeasureByAI />
       <CaloriesConsumedMeasure />
+      <TrackCalories />
+      <MostAccurateTrackkcal />
+      <ChanceToWinNutrioScale />
     </div>
   );
 };

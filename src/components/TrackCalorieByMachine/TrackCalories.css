@@ -1,0 +1,110 @@
+.TrackCaloriesBy_pressBtn {
+  background-color: #f9f9f9;
+
+  height: 960px;
+  margin: auto;
+  align-items: center;
+}
+.TrackCaloriesBy_wrapper {
+}
+.TrackCalorie_text {
+  /* font-family: Open sans !important; */
+  width: 546px;
+  margin: auto;
+  align-items: center;
+  padding: 96px 0px 46px 0px;
+}
+.trackCalories_bgImg {
+  background-image: url("../../images/Frame\ 2147223175.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 906px;
+  height: 562px;
+  align-items: center;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .TrackCaloriesBy_pressBtn {
+    height: 800px;
+    margin: auto;
+  }
+  .TrackCaloriesBy_wrapper {
+  }
+  .TrackCalorie_text {
+    width: 546px;
+    margin: auto;
+
+    padding: 46px 0px 30px 0px;
+  }
+  .trackCalories_bgImg {
+    width: 90%;
+    height: 540px;
+  }
+}
+@media (max-width: 768px) {
+  .TrackCaloriesBy_pressBtn {
+    height: 680px;
+    margin: auto;
+  }
+  .TrackCaloriesBy_wrapper {
+  }
+  .TrackCalorie_text {
+    width: 390px;
+    padding: 33px 0px 30px 0px;
+  }
+  .trackCalories_bgImg {
+    width: 90%;
+    height: 540px;
+  }
+}
+@media (max-width: 540px) {
+  .TrackCaloriesBy_pressBtn {
+    height: 500px;
+    margin: auto;
+  }
+  .TrackCaloriesBy_wrapper {
+  }
+  .TrackCalorie_text {
+    width: 376px;
+    padding: 33px 0px 30px 0px;
+  }
+  .trackCalories_bgImg {
+    width: 90%;
+    height: 255px;
+  }
+}
+@media (max-width: 425px) {
+  .TrackCaloriesBy_pressBtn {
+    height: 500px;
+    margin: auto;
+  }
+  .TrackCaloriesBy_wrapper {
+  }
+  .TrackCalorie_text {
+    width: 332px;
+    padding: 33px 0px 30px 0px;
+    z-index: 40;
+  }
+  .trackCalories_bgImg {
+    width: 90%;
+    height: 255px;
+  }
+}
+@media (max-width: 375px) {
+  .TrackCaloriesBy_pressBtn {
+    height: 552px;
+    margin: auto;
+  }
+  .TrackCaloriesBy_wrapper {
+  }
+  .TrackCalorie_text {
+    width: 330px;
+    padding: 33px 0px 30px 0px;
+    z-index: 40;
+  }
+  .trackCalories_bgImg {
+    width: 88%;
+    height: 255px;
+  }
+}

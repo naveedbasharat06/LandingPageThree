@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f7b2cbe.css",
-    "main.js": "/static/js/main.a00ab8ea.js",
+    "main.css": "/static/css/main.bfc163d3.css",
+    "main.js": "/static/js/main.9ba2a702.js",
     "static/js/453.c15d712a.chunk.js": "/static/js/453.c15d712a.chunk.js",
+    "static/media/nutrioScaleMobile.jpg": "/static/media/nutrioScaleMobile.80fe85b276774b2e5f19.jpg",
+    "static/media/nutrioScale-desktop.jpg": "/static/media/nutrioScale-desktop.ca6fa9ba60416e753362.jpg",
     "static/media/Rectangle01.png": "/static/media/Rectangle01.9fdd8c124496a0a51917.png",
+    "static/media/Frame 2147223175.png": "/static/media/Frame 2147223175.0b4ede43db8a7b142751.png",
     "static/media/salidkcal-Img.png": "/static/media/salidkcal-Img.697c29fe8fbb4fe5f896.png",
     "static/media/caloriConsumeBg.png": "/static/media/caloriConsumeBg.0cf3ff7e42969b5803cb.png",
+    "static/media/Frame 48095857.png": "/static/media/Frame 48095857.5ae7c902471df76de7b7.png",
     "static/media/Rectangle 1 (2).png": "/static/media/Rectangle 1 (2).f1bd1f85dab0c39840c2.png",
     "static/media/image 50.png": "/static/media/image 50.05312f6be3ef0b937281.png",
     "static/media/router.png": "/static/media/router.aedf8da82442d925dc69.png",
@@ -16,12 +20,12 @@
     "index.html": "/index.html",
     "static/media/Helvetica.ttf": "/static/media/Helvetica.31d6cfe0d16ae931b73c.ttf",
     "static/media/Helvetica.woff": "/static/media/Helvetica.31d6cfe0d16ae931b73c.woff",
-    "main.6f7b2cbe.css.map": "/static/css/main.6f7b2cbe.css.map",
-    "main.a00ab8ea.js.map": "/static/js/main.a00ab8ea.js.map",
+    "main.bfc163d3.css.map": "/static/css/main.bfc163d3.css.map",
+    "main.9ba2a702.js.map": "/static/js/main.9ba2a702.js.map",
     "453.c15d712a.chunk.js.map": "/static/js/453.c15d712a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f7b2cbe.css",
-    "static/js/main.a00ab8ea.js"
+    "static/css/main.bfc163d3.css",
+    "static/js/main.9ba2a702.js"
   ]
 }

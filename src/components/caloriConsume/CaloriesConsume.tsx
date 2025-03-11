@@ -8,13 +8,12 @@ import AppleSliceWeight from "../../images/image 57.png";
 // import { FaRegFlag } from "react-icons/fa6";
 // import CaloriesConsume_Bgline from "../../images/Vector 1 (3).png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper/modules";
+import { Pagination, Navigation, EffectFade } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "swiper/css/autoplay";
-
+import "swiper/css/effect-fade";
 const CaloriesConsumedMeasure: React.FC = () => {
   const [activeSlide, setActiveSlide] = useState(0);
   const totalSlides = 3;
@@ -51,18 +50,27 @@ const CaloriesConsumedMeasure: React.FC = () => {
     <div className="CaloriesCosumed_main">
       <div className="calorieConsumed_wraper">
         <Swiper
-          modules={[Pagination, Navigation]}
+          modules={[Pagination, Navigation, EffectFade]}
           autoplay={{ delay: 2000, disableOnInteraction: false }}
           pagination={{ clickable: true }}
+          spaceBetween={0}
+          slidesPerView={1}
           navigation={false}
+          effect="fade" // Makes sure only one slide replaces the other
           onSlideChange={handleSlideChange}
           className="mySwiper z-10!"
-          style={{ position: "relative", width: "100%", height: "100%" }} // Ensure it takes full width and height
+          style={{
+            position: "relative",
+            width: "100%",
+            height: "100%",
+            overflow: "visible",
+          }} // Ensure it takes full width and height
         >
           {[...Array(totalSlides)].map((_, index) => (
             <SwiperSlide
               key={index}
-              style={{ display: "flex", justifyContent: "flex-start" }}
+              className=" "
+              // style={{ display: "flex", justifyContent: "flex-start" }}
             >
               <motion.div
                 initial={{
@@ -71,18 +79,19 @@ const CaloriesConsumedMeasure: React.FC = () => {
                 }}
                 animate={{ opacity: 1, x: "0%" }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
-                className="calorieConsume_Progress_card"
+                className="calorieConsume_Progress_card "
               >
-                <h2 className="text-[9px] md:text-xs font-medium font-[Inter]">
+                <h2 className="text-[6px] mb-[-4px] md:mb-auto text-black md:text-xs font-medium font-[Inter]">
                   Calories Consumed (kcal):
                 </h2>
-                <p className="text-[9px] text-xs  font-[Inter] text-black opacity-60">
+                <p className="text-[8px] md:text-xs font-[Inter] text-black opacity-60">
                   Remaining = Goal - Food + Exercise
                 </p>
-                <div className="caloriesComsumed_progressBar_flex mt-2 lg:mt-3">
+                <div className="caloriesComsumed_progressBar_flex mt-0 lg:mt-3">
                   <div className="flex flex-row justify-evenly mx-auto gap-3 lg:gap-5 items-center">
                     <div
-                      style={{ width: 100, height: 100, position: "relative" }}
+                      style={{ position: "relative" }}
+                      className="relative w-[65px] h-[65x] md:w-[100px] md:h-[100px] "
                     >
                       {/* Single Progress Bar with Gradient */}
                       <CircularProgressbar
@@ -119,34 +128,36 @@ const CaloriesConsumedMeasure: React.FC = () => {
                       <div
                         style={{
                           position: "absolute",
-                          top: "50%",
+                          top: "41%",
                           left: "50%",
                           transform: "translate(-50%, -50%)",
                           textAlign: "center",
                           fontWeight: "bold",
-                          fontSize: "16px",
+                          lineHeight: "0",
                         }}
                       >
-                        <span style={{ color: "black" }}>750</span> <br />
-                        <span
-                          style={{
-                            color: "gray",
-                            fontSize: "12px",
-                          }}
-                        >
+                        <span className="text-xs md:text-sm text-black mt-1">
+                          750
+                        </span>{" "}
+                        <br />
+                        <span className="text-[8px] text-black mb-2">
                           Remaining
                         </span>
                       </div>
                     </div>
-                    <span>
+                    <span className="flex flex-col gap-0">
                       {caloriesCosume_Info.map((item) => (
                         <div
                           key={item.Id}
-                          className="flex flex-row items-center gap-3 space-y-1"
+                          className="flex flex-row items-center gap-2 md:gap-3 space-y-0.5 md:space-y-1"
                         >
-                          <p className="text-green-600">{item.icon}</p>
-                          <span>
-                            <p className="text-xs">{item.title}</p>
+                          <p className="text-green-600 text-[9px] md:text-sm">
+                            {item.icon}
+                          </p>
+                          <span className="flex flex-col flex-start">
+                            <p className="text-[10px] md:text-xs">
+                              {item.title}
+                            </p>
                             <h5 className="text-[9px] md:text-sm font-semibold">
                               {item.kcalQty}
                             </h5>
@@ -168,13 +179,13 @@ const CaloriesConsumedMeasure: React.FC = () => {
         alt="kcal bg"
       /> */}
         <div className="Apple_calorie_card bg-white ">
-          <span className="relative top-5 left-3">
-            <h3 className="text-base md:text-lg font-semibold">Apple</h3>
-            <p className="text-base md:text-base text-black opacity-50">175g</p>
+          <span className="relative top-3 md:top-5 left-2 md:left-3">
+            <h3 className="text-sm md:text-lg font-semibold">Apple</h3>
+            <p className="text-sm md:text-base text-black opacity-50">175g</p>
           </span>
         </div>
         <img
-          className="apple_slice_weight relative w-[144px] z-20  lg:bottom-4 left-14"
+          className="apple_slice_weight"
           src={AppleSliceWeight}
           alt="apple slice"
         />

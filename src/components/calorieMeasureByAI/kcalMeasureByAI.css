@@ -24,6 +24,7 @@
   /* width: 1140px;
   height: 650px; */
   width: 78%;
+  padding-bottom: 96px;
 }
 @media (max-width: 1024px) {
   .kcal_measureByAI_Video {
@@ -31,6 +32,7 @@
     /* width: 1140px;
     height: 650px; */
     width: 85%;
+    padding-bottom: 60px;
   }
   .kcal_measureByAI_PauseVideoIcon {
     position: absolute;
@@ -44,6 +46,7 @@
     position: relative;
     width: 93%;
     height: auto;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 425px) {
@@ -51,6 +54,7 @@
     position: relative;
     width: 90%;
     height: auto;
+    padding-bottom: 20px;
   }
   .kcal_measureByAI_PauseVideoIcon {
     position: absolute;
