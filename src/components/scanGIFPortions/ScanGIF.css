@@ -1,0 +1,127 @@
+.ScanGIFPortion {
+}
+
+.Destop_ScanGIF_Vector01 {
+  position: absolute;
+}
+.scanGIF_PizaaRectange {
+}
+.ScanGIFPortion h1 {
+  position: absolute;
+  top: 32%;
+  left: 40%;
+}
+.ScanGIFPortion span {
+  position: absolute;
+  left: 39%;
+  bottom: 7%;
+  z-index: 30;
+  padding: 5px 20px;
+  font-size: 39px;
+}
+@media (max-width: 1280px) {
+  .Destop_ScanGIF_Vector01 {
+    width: 70%;
+  }
+  .scanGIF_PizaaRectange {
+    width: 50%;
+  }
+  .ScanGIFPortion h1 {
+    top: 33%;
+    left: 43%;
+  }
+  .ScanGIFPortion span {
+    left: 39%;
+    bottom: 8%;
+  }
+}
+@media (max-width: 1024px) {
+  .Destop_ScanGIF_Vector01 {
+    position: absolute;
+    width: 75%;
+  }
+  .scanGIF_PizaaRectange {
+    width: 75%;
+  }
+  .ScanGIFPortion h1 {
+    top: 33%;
+    left: 43%;
+  }
+  .ScanGIFPortion span {
+    left: 38%;
+    bottom: 7%;
+  }
+}
+@media (max-width: 768px) {
+  .Destop_ScanGIF_Vector01 {
+    content: url("../../images/MobileVector01.png"); /* Replace with mobile image */
+
+    position: absolute;
+    width: 50%;
+  }
+  .scanGIF_PizaaRectange {
+    width: 80%;
+  }
+  .ScanGIFPortion span {
+    left: 34%;
+    bottom: 12%;
+    font-size: 28px;
+  }
+  .ScanGIFPortion h1 {
+    top: 32%;
+    left: 40%;
+  }
+}
+@media (max-width: 680px) {
+  .ScanGIFPortion span {
+    left: 31%;
+    bottom: 14%;
+  }
+  .ScanGIFPortion h1 {
+    top: 29%;
+    left: 33%;
+  }
+}
+@media (max-width: 540px) {
+  .Destop_ScanGIF_Vector01 {
+    /* content: url("../../images/MobileVector01.png");  */
+    position: absolute;
+    top: 0%;
+    width: 70%;
+  }
+  .scanGIF_PizaaRectange {
+    width: 80%;
+  }
+  .ScanGIFPortion span {
+    left: 30%;
+    bottom: 17%;
+    padding: 5px 20px;
+    font-size: 24px;
+  }
+  .ScanGIFPortion h1 {
+    top: 29%;
+    left: 33%;
+  }
+}
+@media (max-width: 425px) {
+  .Destop_ScanGIF_Vector01 {
+    content: url("../../images/MobileVector01.png"); /* Replace with mobile image */
+    position: absolute;
+    top: 0%;
+    width: 60%;
+  }
+  .scanGIF_PizaaRectange {
+    width: 85%;
+    top: 3%;
+    position: relative;
+  }
+  .ScanGIFPortion span {
+    left: 24%;
+    bottom: 19%;
+    padding: 8px 22px;
+  }
+  .ScanGIFPortion h1 {
+    top: 23%;
+    left: 26%;
+  }
+}

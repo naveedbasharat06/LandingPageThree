@@ -108,3 +108,18 @@
     height: 255px;
   }
 }
+@media (max-width: 320px) {
+  .TrackCaloriesBy_pressBtn {
+    height: 522px;
+    margin: auto;
+  }
+  .TrackCalorie_text {
+    width: 310px;
+    padding: 24px 0px;
+    z-index: 40;
+  }
+  .trackCalories_bgImg {
+    width: 88%;
+    height: 245px;
+  }
+}

@@ -1,0 +1,196 @@
+.ScanGIFPortion {
+}
+
+.Destop_TrackMultipleGIF_Vector01 {
+  position: absolute;
+  right: 0%;
+  width: 67%;
+  top: 33%;
+}
+.TrackMultiGIFFinal {
+}
+.TrackMultipleGIF h1 {
+  position: absolute;
+  top: 34%;
+  left: 44%;
+}
+.TrackMultipleGIF span {
+  position: absolute;
+  left: 32%;
+  bottom: 7%;
+  z-index: 30;
+  padding: 5px 20px;
+  font-size: 39px;
+}
+@media (max-width: 1280px) {
+  .ScanGIFPortion {
+  }
+
+  .Destop_TrackMultipleGIF_Vector01 {
+    right: 0%;
+    width: 41%;
+    top: 28%;
+  }
+  .TrackMultiGIFFinal {
+  }
+  .TrackMultipleGIF h1 {
+    position: absolute;
+    top: 34%;
+    left: 44%;
+  }
+  .TrackMultipleGIF span {
+    position: absolute;
+    left: 29%;
+    bottom: 9%;
+    padding: 5px 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .ScanGIFPortion {
+  }
+
+  .Destop_TrackMultipleGIF_Vector01 {
+    right: 0%;
+    width: 50%;
+    top: 42%;
+  }
+  .TrackMultiGIFFinal {
+  }
+  .TrackMultipleGIF h1 {
+    top: 34%;
+    left: 44%;
+  }
+  .TrackMultipleGIF span {
+    left: 29%;
+    bottom: 10%;
+
+    padding: 5px 20px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .ScanGIFPortion {
+  }
+
+  .Destop_TrackMultipleGIF_Vector01 {
+    content: url("../../images/MobileVector02.png");
+    right: 0%;
+    width: 29%;
+    top: 36%;
+  }
+  .TrackMultiGIFFinal {
+    width: 80%;
+  }
+  .TrackMultipleGIF h1 {
+    top: 35%;
+    left: 39%;
+  }
+  .TrackMultipleGIF span {
+    left: 22%;
+    bottom: 6%;
+
+    padding: 5px 20px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 680px) {
+  .ScanGIFPortion {
+  }
+
+  .Destop_TrackMultipleGIF_Vector01 {
+    right: 0%;
+    width: 29%;
+    top: 41%;
+  }
+  .TrackMultiGIFFinal {
+    width: 80%;
+  }
+  .TrackMultipleGIF h1 {
+    top: 35%;
+    left: 39%;
+  }
+  .TrackMultipleGIF span {
+    left: 20%;
+    bottom: 6%;
+
+    padding: 5px 20px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 540px) {
+  .ScanGIFPortion {
+  }
+
+  .Destop_TrackMultipleGIF_Vector01 {
+    right: 0%;
+    width: 29%;
+    top: 41%;
+  }
+  .TrackMultiGIFFinal {
+    width: 80%;
+  }
+  .TrackMultipleGIF h1 {
+    top: 35%;
+    left: 39%;
+  }
+  .TrackMultipleGIF span {
+    left: 19%;
+    bottom: 8%;
+    padding: 5px 20px;
+    font-size: 24px;
+  }
+}
+@media (max-width: 425px) {
+  .ScanGIFPortion {
+  }
+
+  .Destop_TrackMultipleGIF_Vector01 {
+    right: 0%;
+    width: 29%;
+    top: 41%;
+  }
+  .TrackMultiGIFFinal {
+    width: 85%;
+  }
+  .TrackMultipleGIF h1 {
+    top: 27%;
+    left: 28%;
+  }
+  .TrackMultipleGIF span {
+    left: 11%;
+    bottom: 10%;
+    padding: 4px 30px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 375px) {
+  .ScanGIFPortion {
+  }
+
+  .Destop_TrackMultipleGIF_Vector01 {
+    right: 0%;
+    width: 29%;
+    top: 41%;
+  }
+  .TrackMultiGIFFinal {
+    width: 85%;
+  }
+  .TrackMultipleGIF h1 {
+    top: 24%;
+    left: 26%;
+  }
+  .TrackMultipleGIF span {
+    left: 7%;
+    bottom: 10%;
+    padding: 4px 29px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 353px) {
+  .TrackMultipleGIF span {
+    left: 10%;
+    bottom: 12%;
+    padding: 4px 24px;
+    font-size: 19px;
+  }
+}

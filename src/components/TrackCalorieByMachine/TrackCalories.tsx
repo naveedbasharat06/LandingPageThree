@@ -16,7 +16,7 @@ const TrackCalories: React.FC = () => {
           </p>
         </div>
         <div className="trackCalories_bgImg">
-          <span className="relative top-[6%] md:top-[7%] left-[-5%] md:left-[-4%] lg:left-[-7%] text-base md:text-lg lg:text-3xl text-black font-[Inter] bg-white shadow-md rounded-2xl md:rounded-3xl p-2 md:p-5 font-normal">
+          <span className="inline-block relative top-[4%] md:top-[4%] left-[-5%] md:left-[-4%] lg:left-[-7%] text-base md:text-lg lg:text-3xl text-black font-[Inter] bg-white shadow-md rounded-2xl md:rounded-3xl p-2 md:p-5 font-normal transition-transform duration-300 ease-in-out  hover:-rotate-3">
             Track with <b className="font-bold!">one button press</b>
           </span>
         </div>

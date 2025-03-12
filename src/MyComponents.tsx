@@ -9,6 +9,10 @@ import CaloriesConsumedMeasure from "./components/caloriConsume/CaloriesConsume"
 import TrackCalories from "./components/TrackCalorieByMachine/TrackCalories";
 import MostAccurateTrackkcal from "./components/mostAccurateTrackCalories/AccurateTrackKcal";
 import ChanceToWinNutrioScale from "./components/winNutrioScale/ChanceToWinNutrioScale";
+import ScanEveryMeal from "./components/scanEveryTypeOfMeal/ScanEveryMeal";
+import ScanGIFPortion from "./components/scanGIFPortions/ScanGIF";
+import TrackMultipleIngredientsByGIF from "./components/TrackMultipleIngredientsGIF/TrackMultipleByGIF";
+// import TrackAnyWhereWithQalzyApp from "./components/trackAnyWhereWithQalzy/trackAnyWhereWithQalzyApp";
 
 const MyComponents: React.FC = () => {
   return (
@@ -23,6 +27,11 @@ const MyComponents: React.FC = () => {
       <TrackCalories />
       <MostAccurateTrackkcal />
       <ChanceToWinNutrioScale />
+      <ScanEveryMeal />
+      <ScanGIFPortion />
+      <TrackMultipleIngredientsByGIF />
+      <ChanceToWinNutrioScale />
+      {/* <TrackAnyWhereWithQalzyApp /> */}
     </div>
   );
 };
