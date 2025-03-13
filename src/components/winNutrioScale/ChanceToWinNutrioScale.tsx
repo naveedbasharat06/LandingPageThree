@@ -8,14 +8,14 @@ const ChanceToWinNutrioScale: React.FC = () => {
         <h2 className="font-[Inter] font-light md:font-normal text-5xl md:leading-[52px] text-center md:text-start  leading-[100%] px-10 md:px-0 mb-2 text-white tracking-[0%]">
           Join the waiting list
         </h2>
-        <h3 className="font-[Inter] px-4 md:px-0 md:text-xl lg:text-2xl font-bold  md:leading-[52px] text-center md:text-start  leading-[120%] text-white tracking-[0%]">
+        <h3 className="font-[Inter] px-12 md:px-0 md:text-xl lg:text-2xl font-bold  md:leading-[52px] text-center md:text-start  leading-[120%] text-white tracking-[0%]">
           Enter to win a Nutrioscale and get 25% off
         </h3>
-        <p className="text-white font-[Helvetica] md:text-base text-sm px-6 md:px-0 text-center md:text-start">
+        <p className="text-white font-[Helvetica] md:text-base text-sm px-12 md:px-0 text-center md:text-start">
           Enter for a chance to win a Nutrioscale and get a prelaunch discount
         </p>
         <input
-          className="relative items-center md:items-start mx-auto md:mx-0  border-2 border-green-300 rounded-full p-3 bg-amber-50 my-6 w-[280px] placeholder:text-green-300"
+          className="relative items-center md:items-start mx-auto md:mx-0  border-2 border-green-200 rounded-full p-3 bg-amber-50 my-6 w-[280px] placeholder:text-green-200"
           type="email"
           placeholder="Your email address.."
         />

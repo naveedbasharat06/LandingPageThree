@@ -12,7 +12,7 @@ import ChanceToWinNutrioScale from "./components/winNutrioScale/ChanceToWinNutri
 import ScanEveryMeal from "./components/scanEveryTypeOfMeal/ScanEveryMeal";
 import ScanGIFPortion from "./components/scanGIFPortions/ScanGIF";
 import TrackMultipleIngredientsByGIF from "./components/TrackMultipleIngredientsGIF/TrackMultipleByGIF";
-// import TrackAnyWhereWithQalzyApp from "./components/trackAnyWhereWithQalzy/trackAnyWhereWithQalzyApp";
+import TrackAnyWhereWithQalzyApp from "./components/trackAnyWhereWithQalzy/trackAnyWhereWithQalzyApp";
 
 const MyComponents: React.FC = () => {
   return (
@@ -31,7 +31,7 @@ const MyComponents: React.FC = () => {
       <ScanGIFPortion />
       <TrackMultipleIngredientsByGIF />
       <ChanceToWinNutrioScale />
-      {/* <TrackAnyWhereWithQalzyApp /> */}
+      <TrackAnyWhereWithQalzyApp />
     </div>
   );
 };

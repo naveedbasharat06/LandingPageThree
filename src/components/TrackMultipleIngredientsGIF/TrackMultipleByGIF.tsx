@@ -15,7 +15,7 @@ const TrackMultipleIngredientsByGIF: React.FC = () => {
         />
 
         <h1
-          className="text-[128px] md:text-[132px] lg:text-[140px] text-black
+          className="text-[128px] md:text-[132px] lg:text-[140px] text-white
          z-20 "
         >
           GIF

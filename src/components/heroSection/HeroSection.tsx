@@ -4,7 +4,7 @@ const HeroSection: React.FC = () => {
   return (
     <div className="HeroSection HeroSection_mobileBgImg HeroSection_mobileBgImg">
       <div className="relative px-[5%] py-[100px] md:py-[150px] lg:py-[175px] pl-30 md:pl-32 lg:pl-40 md:pr-6 lg:pr-10 flex flex-col w-[100%] md:w-[620px] lg:w-[815px] text-center  md:items-start">
-        <h2 className="font-[inter] font-light md:font-normal text-4xl md:text-[40px] md:leading-[52px] text-center md:text-start  leading-[43px] px-10 md:px-0 text-white tracking-[0%]">
+        <h2 className="font-[inter] font-light md:font-normal text-4xl md:text-4xl lg:text-[48px] md:leading-[52px] text-center md:text-start  leading-[120%] px-10 md:px-0 text-white tracking-[0%]">
           The only kitchen scale that auto-tracks calories
         </h2>
         <p className="text-white font-[Helvetica] text-xl mt-4 text-center md:text-start px-8 md:px-0">
