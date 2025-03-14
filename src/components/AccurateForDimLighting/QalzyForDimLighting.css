@@ -1,0 +1,276 @@
+.QalzyForDimLighting {
+  background-color: #f5f5f5;
+}
+.DimLIghting_grandiantBg_line {
+  background-image: url("../../images/Vector04.png");
+  width: 100%;
+  height: 687px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.KichenScal_type {
+  position: relative;
+  width: 948px;
+  height: 628px;
+  align-items: center;
+  margin: auto;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.KichenScal_type_lightEffect {
+  position: absolute;
+  top: 7%;
+  width: 15%;
+  height: 64%;
+  left: 47%;
+}
+.EnerySummary_Progress_card {
+  position: absolute;
+  top: 7%;
+  left: 9%;
+  width: 315px;
+  height: 181px;
+  background-color: white !important;
+  border-radius: 20px;
+  padding: 10px;
+
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+@media (max-width: 1366px) {
+  .QalzyForDimLighting {
+    background-color: #f5f5f5;
+  }
+  .DimLIghting_grandiantBg_line {
+    width: 100%;
+    height: 675px;
+  }
+  .KichenScal_type {
+    width: 948px;
+    height: 603px;
+    margin: auto;
+  }
+  .KichenScal_type_lightEffect {
+    top: 7%;
+    width: 17%;
+    height: 69%;
+    left: 46%;
+  }
+  .EnerySummary_Progress_card {
+    top: 7%;
+    left: 6%;
+    width: 315px;
+    height: 181px;
+    border-radius: 20px;
+    padding: 10px;
+    z-index: 10;
+  }
+}
+@media (max-width: 1280px) {
+  .QalzyForDimLighting {
+    background-color: #f5f5f5;
+  }
+  .DimLIghting_grandiantBg_line {
+    width: 100%;
+    background-size: contain;
+    height: 645px;
+  }
+  .KichenScal_type {
+    width: 950px;
+    height: 575px;
+    margin: auto;
+  }
+  .KichenScal_type_lightEffect {
+    top: 7%;
+    width: 20%;
+    height: 69%;
+    left: 43%;
+  }
+  .EnerySummary_Progress_card {
+    top: 7%;
+    left: 6%;
+    width: 300px;
+    height: 167px;
+    border-radius: 20px;
+    padding: 10px;
+    z-index: 10;
+  }
+}
+@media (max-width: 1024px) {
+  .QalzyForDimLighting {
+    background-color: #f5f5f5;
+  }
+  .DimLIghting_grandiantBg_line {
+    width: 100%;
+    background-size: contain;
+    /* height: auto; */
+  }
+  .KichenScal_type {
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+  .KichenScal_type_lightEffect {
+    top: 7%;
+    width: 25%;
+    height: 64%;
+    left: 39%;
+  }
+  .EnerySummary_Progress_card {
+    top: 7%;
+    left: 6%;
+    width: 300px;
+    height: 167px;
+    border-radius: 20px;
+    padding: 7px;
+  }
+}
+@media (max-width: 854px) {
+  .QalzyForDimLighting {
+    background-color: #f5f5f5;
+  }
+  .DimLIghting_grandiantBg_line {
+    width: 100%;
+    background-size: contain;
+    /* height: auto; */
+  }
+  .KichenScal_type {
+    width: 85%;
+    height: 523px;
+    margin: auto;
+  }
+  .KichenScal_type_lightEffect {
+    top: 7%;
+    width: 25%;
+    height: 64%;
+    left: 39%;
+  }
+  .EnerySummary_Progress_card {
+    top: 7%;
+    left: 2%;
+    width: 282px;
+    height: 155px;
+    border-radius: 20px;
+    padding: 7px;
+  }
+}
+@media (max-width: 768px) {
+  .QalzyForDimLighting {
+    background-color: #f5f5f5;
+  }
+  .DimLIghting_grandiantBg_line {
+    width: 100%;
+    background-size: contain;
+    height: 435px;
+  }
+  .KichenScal_type {
+    width: 75%;
+    height: 367px;
+    margin: auto;
+  }
+  .KichenScal_type_lightEffect {
+    top: 7%;
+    width: 24%;
+    height: 58%;
+    left: 40%;
+  }
+  .caloriesComsumed_progressBar_flex {
+    margin-top: 10px;
+  }
+  .EnerySummary_Progress_card {
+    top: 7%;
+
+    left: 2%;
+    width: 273px;
+    height: 147px;
+    border-radius: 20px;
+    padding: 7px;
+  }
+}
+@media (max-width: 767px) {
+  .EnerySummary_Progress_card {
+    top: 7%;
+
+    left: 2%;
+    width: 245px;
+    height: 124px;
+    border-radius: 17px;
+    padding: 7px;
+  }
+}
+@media (max-width: 425px) {
+  .QalzyForDimLighting {
+    background-color: #f5f5f5;
+  }
+  .DimLIghting_grandiantBg_line {
+    width: 100%;
+    background-size: contain;
+    height: 256px;
+  }
+  .KichenScal_type {
+    width: 81%;
+    height: 211px;
+    margin: auto;
+  }
+  .KichenScal_type_lightEffect {
+    top: 7%;
+    width: 25%;
+    height: 52%;
+    left: 39%;
+  }
+  .caloriesComsumed_progressBar_flex {
+    margin-top: 10px;
+  }
+  .EnerySummary_Progress_card {
+    top: 7%;
+    left: 2%;
+    width: 201px;
+    height: 102px;
+    border-radius: 20px;
+    padding: 7px;
+  }
+  .enerySummary_extraSmall_text {
+    font-size: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .QalzyForDimLighting {
+    background-color: #f5f5f5;
+  }
+  .DimLIghting_grandiantBg_line {
+    width: 100%;
+    background-size: contain;
+    height: 200px;
+  }
+  .KichenScal_type {
+    width: 78%;
+    height: 176px;
+    margin: auto;
+  }
+  .KichenScal_type_lightEffect {
+    top: 7%;
+    width: 25%;
+    height: 52%;
+    left: 39%;
+  }
+  .caloriesComsumed_progressBar_flex {
+    margin-top: 10px;
+  }
+  .EnerySummary_Progress_card {
+    top: 7%;
+    left: 2%;
+    width: 180px;
+    height: 100px;
+    border-radius: 20px;
+    padding: 7px;
+  }
+  .enerySummary_extraSmall_text {
+    font-size: 8px;
+  }
+}

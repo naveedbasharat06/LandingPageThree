@@ -45,7 +45,7 @@ const TrackAnyWhereWithQalzyApp: React.FC = () => {
       <div className="">
         <div className="TrackAnywhere_withQalzyApp_flexMobile flex justify-center mx-auto pb-6 md:pb-7 lg:pb-14 gap-6">
           <img
-            className="GirleScaningFoodImg "
+            className="GirleScaningFoodImg"
             src={GirleScaningFoodImg}
             alt="scan kcal"
           />
@@ -66,7 +66,7 @@ const TrackAnyWhereWithQalzyApp: React.FC = () => {
           {QALZY_APP_FUNCTIONALITY.map((item, indx) => (
             <div
               key={indx}
-              className="card relative bg-[#F5F5F5] hover:bg-white rounded-[30px] gap-4 hover:shadow-lg transition delay-150 duration-500 ease-in-out hover:-translate-y-1 hover:scale-105"
+              className="card relative bg-[#F5F5F5] hover:bg-white rounded-[30px] gap-4 hover:shadow-lg transition delay-150 duration-00 ease-in-out hover:-translate-y-1 hover:scale-105"
             >
               <img
                 className="relative mx-auto items-center"

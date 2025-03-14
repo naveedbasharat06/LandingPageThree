@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f0edf90.css",
-    "main.js": "/static/js/main.c6a7d0c1.js",
+    "main.css": "/static/css/main.dd5d0a1a.css",
+    "main.js": "/static/js/main.6cb49d40.js",
     "static/js/453.c15d712a.chunk.js": "/static/js/453.c15d712a.chunk.js",
     "static/media/nutrioScaleMobile.jpg": "/static/media/nutrioScaleMobile.80fe85b276774b2e5f19.jpg",
     "static/media/nutrioScale-desktop.jpg": "/static/media/nutrioScale-desktop.ca6fa9ba60416e753362.jpg",
@@ -12,13 +12,16 @@
     "static/media/Frame 2147223175.png": "/static/media/Frame 2147223175.0b4ede43db8a7b142751.png",
     "static/media/salidkcal-Img.png": "/static/media/salidkcal-Img.697c29fe8fbb4fe5f896.png",
     "static/media/caloriConsumeBg.png": "/static/media/caloriConsumeBg.0cf3ff7e42969b5803cb.png",
+    "static/media/Kitchen_scales_type_1_white_2.png": "/static/media/Kitchen_scales_type_1_white_2.1c8e2e16f43b758dcf3a.png",
     "static/media/Frame 48095857.png": "/static/media/Frame 48095857.5ae7c902471df76de7b7.png",
     "static/media/totalkcalMObile.png": "/static/media/totalkcalMObile.234c0222d1e00f4dba52.png",
     "static/media/Rectangle 1 (2).png": "/static/media/Rectangle 1 (2).f1bd1f85dab0c39840c2.png",
     "static/media/image 50.png": "/static/media/image 50.05312f6be3ef0b937281.png",
     "static/media/router.png": "/static/media/router.aedf8da82442d925dc69.png",
+    "static/media/Vector 8.png": "/static/media/Vector 8.6daa2bbe4666b8a7b18a.png",
     "static/media/tomatokcal.png": "/static/media/tomatokcal.14c74f58e1f94b17111d.png",
     "static/media/image 57.png": "/static/media/image 57.78d8a8bfafe956ee2973.png",
+    "static/media/Vector04.png": "/static/media/Vector04.0a57e6edc27160a9ed3e.png",
     "static/media/Vector 1 (3).png": "/static/media/Vector 1 (3).532d92782710757a1c47.png",
     "static/media/horizontalLine.png": "/static/media/horizontalLine.566d0661fb5a0df8ac4e.png",
     "static/media/Vector02.png": "/static/media/Vector02.57bd5c0ed306cd81beab.png",
@@ -27,12 +30,12 @@
     "index.html": "/index.html",
     "static/media/Helvetica.ttf": "/static/media/Helvetica.31d6cfe0d16ae931b73c.ttf",
     "static/media/Helvetica.woff": "/static/media/Helvetica.31d6cfe0d16ae931b73c.woff",
-    "main.6f0edf90.css.map": "/static/css/main.6f0edf90.css.map",
-    "main.c6a7d0c1.js.map": "/static/js/main.c6a7d0c1.js.map",
+    "main.dd5d0a1a.css.map": "/static/css/main.dd5d0a1a.css.map",
+    "main.6cb49d40.js.map": "/static/js/main.6cb49d40.js.map",
     "453.c15d712a.chunk.js.map": "/static/js/453.c15d712a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f0edf90.css",
-    "static/js/main.c6a7d0c1.js"
+    "static/css/main.dd5d0a1a.css",
+    "static/js/main.6cb49d40.js"
   ]
 }

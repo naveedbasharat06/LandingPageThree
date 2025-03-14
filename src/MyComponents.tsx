@@ -13,6 +13,7 @@ import ScanEveryMeal from "./components/scanEveryTypeOfMeal/ScanEveryMeal";
 import ScanGIFPortion from "./components/scanGIFPortions/ScanGIF";
 import TrackMultipleIngredientsByGIF from "./components/TrackMultipleIngredientsGIF/TrackMultipleByGIF";
 import TrackAnyWhereWithQalzyApp from "./components/trackAnyWhereWithQalzy/trackAnyWhereWithQalzyApp";
+import QalzyForDimLighting from "./components/AccurateForDimLighting/QalzyForDimLighting";
 
 const MyComponents: React.FC = () => {
   return (
@@ -32,6 +33,8 @@ const MyComponents: React.FC = () => {
       <TrackMultipleIngredientsByGIF />
       <ChanceToWinNutrioScale />
       <TrackAnyWhereWithQalzyApp />
+      <QalzyForDimLighting />
+      <ChanceToWinNutrioScale />
     </div>
   );
 };

@@ -79,7 +79,7 @@ const CaloriesConsumedMeasure: React.FC = () => {
                 }}
                 animate={{ opacity: 1, x: "0%" }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
-                className="calorieConsume_Progress_card "
+                className="calorieConsume_Progress_card"
               >
                 <h2 className="text-[6px] mb-[-4px] md:mb-auto text-black md:text-xs font-medium font-[Inter]">
                   Calories Consumed (kcal):
