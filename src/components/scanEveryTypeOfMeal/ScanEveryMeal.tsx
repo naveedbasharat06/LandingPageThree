@@ -7,7 +7,7 @@ const ScanEveryMeal: React.FC = () => {
         <h2 className="text-black text-2xl leading-[120%] font-bold mb-4">
           Scan Every Type of Meal
         </h2>
-        <p className="text-black opacity-70 leading-[150%] tracking-0">
+        <p className="text-black text-base opacity-70 leading-[150%] tracking-0">
           From homemade meals to packaged snacks, Qalzy recognizes multiple
           ingredients on a plate, scans nutrition labels, and even adjusts for
           portion sizes, so you log exactly what you eat.

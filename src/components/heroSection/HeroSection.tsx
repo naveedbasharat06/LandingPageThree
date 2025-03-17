@@ -21,7 +21,7 @@ const HeroSection: React.FC = () => {
           </p>
         </div>
         <button
-          className="text-white h-14 font-[Inter] leading-[100%] rounded-full shadow-lg shadow-green-400/40 bg-[#4AD769] hover:bg-green-400 
+          className="text-white text-xl h-14 font-[Inter] leading-[100%] rounded-full shadow-lg shadow-green-400/40 bg-[#4AD769] hover:bg-green-400 
         font-xl font-bold w-[263px] py-3 mt-10  mx-auto md:mx-0  transition delay-150 duration-300 ease-in-out hover:-translate-y hover:scale-110"
         >
           PREORDER NOW

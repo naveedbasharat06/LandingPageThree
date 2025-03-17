@@ -15,13 +15,13 @@ const ChanceToWinNutrioScale: React.FC = () => {
           Enter for a chance to win a Nutrioscale and get a prelaunch discount
         </p>
         <input
-          className="relative items-center md:items-start mx-auto md:mx-0  border-2 border-green-200 rounded-full p-3 bg-amber-50 my-6 w-[280px] placeholder:text-green-200"
+          className="relative text-base items-center md:items-start mx-auto md:mx-0  border-2 border-green-200 rounded-full p-3 bg-amber-50 my-6 w-[280px] placeholder:text-green-200"
           type="email"
           placeholder="Your email address.."
         />
 
         <button
-          className="relative items-center md:items-start mx-auto md:mx-0 text-white h-14 font-[Inter] leading-[100%] rounded-full shadow-lg shadow-green-400/40 bg-[#4AD769] hover:bg-green-400 
+          className="relative text-xl items-center md:items-start mx-auto md:mx-0 text-white h-14 font-[Inter] leading-[100%] rounded-full shadow-lg shadow-green-400/40 bg-[#4AD769] hover:bg-green-400 
         font-xl font-bold w-[263px] transition delay-150 duration-500 ease-in-out hover:-translate-y hover:scale-105 uppercase"
         >
           join waiting list
