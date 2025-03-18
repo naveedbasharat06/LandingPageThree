@@ -14,6 +14,10 @@ import ScanGIFPortion from "./components/scanGIFPortions/ScanGIF";
 import TrackMultipleIngredientsByGIF from "./components/TrackMultipleIngredientsGIF/TrackMultipleByGIF";
 import TrackAnyWhereWithQalzyApp from "./components/trackAnyWhereWithQalzy/trackAnyWhereWithQalzyApp";
 import QalzyForDimLighting from "./components/AccurateForDimLighting/QalzyForDimLighting";
+// import CaloriesTracker from "./components/reachYourGoalFaster/ReachYRGoalFaster";
+// import FitnessDashboard from "./components/reachYourGoalFaster/ReachYourGoalFaster";
+import chartBGfullImg from "./images/Frame 2147223215.png";
+import MoreUseSmarterGetByQalzyApp from "./components/moreUseSmarterGet/MoreUseSmarterGet";
 
 const MyComponents: React.FC = () => {
   return (
@@ -35,6 +39,11 @@ const MyComponents: React.FC = () => {
       <TrackAnyWhereWithQalzyApp />
       <QalzyForDimLighting />
       <ChanceToWinNutrioScale />
+      {/* <ReachYRGoalFaster /> */}
+      {/* <FitnessDashboard /> */}
+
+      <img src={chartBGfullImg} alt=" full bg" />
+      <MoreUseSmarterGetByQalzyApp />
     </div>
   );
 };

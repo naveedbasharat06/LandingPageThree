@@ -1,0 +1,17 @@
+.more_use_smarter_get {
+  background-color: #f9f9f9;
+}
+@media (max-width: 490px) {
+  .moreUserGetSmater_tick_card {
+  }
+  .moreUserGetSmater_tick_card h2 {
+    font-size: 10px;
+  }
+}
+@media (max-width: 415px) {
+  .moreUserGetSmater_tick_card {
+  }
+  .moreUserGetSmater_tick_card h2 {
+    font-size: 8px;
+  }
+}

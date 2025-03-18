@@ -15,7 +15,7 @@ const ChanceToWinNutrioScale: React.FC = () => {
           Enter for a chance to win a Nutrioscale and get a prelaunch discount
         </p>
         <input
-          className="relative text-base items-center md:items-start mx-auto md:mx-0  border-2 border-green-200 rounded-full p-3 bg-amber-50 my-6 w-[280px] placeholder:text-green-200"
+          className="relative text-base items-center md:items-start mx-auto md:mx-0  border-2 border-[#A9C8A2] rounded-full p-3 bg-white my-6 w-[280px] placeholder:text-[#A9C8A2]"
           type="email"
           placeholder="Your email address.."
         />
