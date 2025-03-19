@@ -6,10 +6,10 @@ const LogMealWithoutPhone: React.FC = () => {
   return (
     <div className="bg-[#FFFFFF] py-12 flex flex-col items-center">
       <div className="text-center max-w-2xl">
-        <h2 className="text-black leading-[120%] tracking-[0%] text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-black leading-[120%] tracking-[0%] text-2xl font-bold mb-4 font-[Open_Sans]">
           Log Meals without a phone
         </h2>
-        <p className="text-black text-base opacity-90 leading-6 px-auto px-4 md:px-16">
+        <p className="text-black text-base opacity-90 leading-6 px-auto px-4 md:px-16 font-[Open_Sans]">
           Keep your phone in your pocket. Qalzy connects straight to your Wifi
           so you can cook and log meals at the press of a button, without ever
           having to use your phone. No more typing with dirty hands! When you're

@@ -14,10 +14,10 @@ const CaloriesMeasureByAI: React.FC = () => {
   return (
     <div className=" kcal_measureByAI mx-auto">
       <div className="kcal_measureByAI_content relative mx-auto text-center w-[90%] md:w-[546px]">
-        <h2 className="text-2xl leading-[120%] tracking-[0%]">
+        <h2 className="text-2xl font-[Open_Sans] leading-[120%] tracking-[0%]">
           Instant AI-powered Calorie Counting
         </h2>
-        <p className="text-[16px] leading-[150%] tracking-[0%] opacity-70">
+        <p className="text-[16px] leading-[150%] font-[Open_Sans] tracking-[0%] opacity-70">
           Tired of manually tracking your calories? Qalzy’s AI camera instantly
           identifies raw foods, packaged items, and even multiple ingredients on
           a plate with over 90% accuracy, and automatically logs the detected

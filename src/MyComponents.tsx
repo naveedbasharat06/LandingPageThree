@@ -15,7 +15,7 @@ import TrackMultipleIngredientsByGIF from "./components/TrackMultipleIngredients
 import TrackAnyWhereWithQalzyApp from "./components/trackAnyWhereWithQalzy/trackAnyWhereWithQalzyApp";
 import QalzyForDimLighting from "./components/AccurateForDimLighting/QalzyForDimLighting";
 // import CaloriesTracker from "./components/reachYourGoalFaster/ReachYRGoalFaster";
-// import FitnessDashboard from "./components/reachYourGoalFaster/ReachYourGoalFaster";
+import FitnessDashboard from "./components/reachYourGoalFaster/ReachYourGoalFaster";
 // import chartBGfullImg from "./images/Frame 2147223215.png";
 import MoreUseSmarterGetByQalzyApp from "./components/moreUseSmarterGet/MoreUseSmarterGet";
 import AlexaGetStartedQalzy from "./components/alexaLogin/AlexaLoginApp";
@@ -26,6 +26,8 @@ import WeAreQalzy from "./components/weAreQalzy/WeAreQalzy";
 import WhatsInTheBox from "./components/whatsInBox/WhatsInTheBox";
 import QalzySpecification from "./components/qalzySpecifications/QalzySpecifications";
 import OurSocialMedia from "./components/ourSocialMedia/OurSocialMedia";
+import LargestCaloriesCountingGroup from "./components/largestCalorieCountingGroup/LargestCaloriesCountingGroup";
+import FAQs from "./components/faqs/FAQs";
 
 const MyComponents: React.FC = () => {
   return (
@@ -60,6 +62,9 @@ const MyComponents: React.FC = () => {
       <WhatsInTheBox />
       <QalzySpecification />
       <OurSocialMedia />
+      <LargestCaloriesCountingGroup />
+      <FAQs />
+      <ChanceToWinNutrioScale />
     </div>
   );
 };

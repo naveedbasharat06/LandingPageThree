@@ -3,8 +3,8 @@ import React from "react";
 const ScanEveryMeal: React.FC = () => {
   return (
     <div className="bg-[#F9F9F9]">
-      <div className="relative mx-auto py-12 md:py-24 items-center w-[92%] md:w-[420px] lg:w-[546px] text-center">
-        <h2 className="text-black text-2xl leading-[120%] font-bold mb-4">
+      <div className="relative mx-auto py-12 md:py-24 items-center w-[92%] md:w-[420px] lg:w-[546px] text-center font-[Open_Sans]">
+        <h2 className="text-black text-2xl leading-[120%] font-bold mb-4 font-[Open_Sans]">
           Scan Every Type of Meal
         </h2>
         <p className="text-black text-base opacity-70 leading-[150%] tracking-0">

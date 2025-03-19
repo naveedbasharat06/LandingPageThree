@@ -12,10 +12,10 @@ const MoreUseSmarterGetByQalzyApp: React.FC = () => {
   return (
     <div className="more_use_smarter_get px-4 py-12 flex flex-col items-center">
       <div className="text-center max-w-2xl">
-        <h2 className="text-black text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-black text-2xl  font-bold mb-4 font-[Open_Sans]">
           The More You Use It, The Smarter It Gets.
         </h2>
-        <p className="text-black text-base opacity-90 leading-6 px-3">
+        <p className="text-black text-base opacity-90 leading-6 px-2 md:px-6 lg:px-20 font-[Open_Sans]">
           Qalzy’s AI learns from your food choices, recognizing your custom
           recipes and favorite ingredients with just one photo. It adapts to
           your diet and preferences over time, making logging and tracking even

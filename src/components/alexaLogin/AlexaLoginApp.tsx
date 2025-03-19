@@ -6,7 +6,7 @@ const AlexaGetStartedQalzy: React.FC = () => {
   return (
     <div className="px-4 py-12 flex flex-col items-center">
       <div className="text-center max-w-2xl">
-        <h2 className="text-black leading-[120%] tracking-[0%] text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-black leading-[120%] tracking-[0%] text-2xl font-bold mb-4 font-[Open_Sans]">
           Alexa, Log This.
         </h2>
         <p className="text-black text-base opacity-90 leading-6 px-auto md:px-20">

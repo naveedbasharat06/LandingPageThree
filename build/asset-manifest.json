@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.abfd7f9e.css",
-    "main.js": "/static/js/main.4699619a.js",
+    "main.css": "/static/css/main.79afcc07.css",
+    "main.js": "/static/js/main.32e106ef.js",
     "static/js/453.c15d712a.chunk.js": "/static/js/453.c15d712a.chunk.js",
     "static/media/nutrioScaleMobile.jpg": "/static/media/nutrioScaleMobile.80fe85b276774b2e5f19.jpg",
     "static/media/Image cation.png": "/static/media/Image cation.4e138f46926bb9dea0d3.png",
     "static/media/v2.png": "/static/media/v2.e79656528b8afd7ba1fa.png",
     "static/media/nutrioScale-desktop.jpg": "/static/media/nutrioScale-desktop.ca6fa9ba60416e753362.jpg",
+    "static/media/Frame 2147223219.png": "/static/media/Frame 2147223219.0446456fb3c8c47a1aad.png",
     "static/media/Frame 2147223216.png": "/static/media/Frame 2147223216.8ac071f6b919db04bba2.png",
     "static/media/Rectangle01.png": "/static/media/Rectangle01.9fdd8c124496a0a51917.png",
     "static/media/MASHED_GIF_FINAL 1.png": "/static/media/MASHED_GIF_FINAL 1.1736d09cc904825fd4ca.png",
@@ -23,12 +24,14 @@
     "static/media/tiktok-post2.png": "/static/media/tiktok-post2.0ef50a2279ea3b771e40.png",
     "static/media/Rectangle 1 (2).png": "/static/media/Rectangle 1 (2).f1bd1f85dab0c39840c2.png",
     "static/media/Frame 12886.png": "/static/media/Frame 12886.8bea1a811a30e9a014bf.png",
+    "static/media/Frame 76.png": "/static/media/Frame 76.db650a8e7e3969e33ae3.png",
     "static/media/Frame 2147223217.png": "/static/media/Frame 2147223217.3091c74791b2f475da16.png",
     "static/media/Imagetiktok.png": "/static/media/Imagetiktok.8dbfd994ee3cdd190027.png",
     "static/media/titokpost3.png": "/static/media/titokpost3.fb4aa13a89bad385a1cc.png",
     "static/media/image 50.png": "/static/media/image 50.05312f6be3ef0b937281.png",
     "static/media/router.png": "/static/media/router.aedf8da82442d925dc69.png",
     "static/media/Frame 2147223201.png": "/static/media/Frame 2147223201.29566f1e603b3f0402b0.png",
+    "static/media/Close Up detail - Packed Down G - No wire 2.png": "/static/media/Close Up detail - Packed Down G - No wire 2.6414ea7beb97654960fb.png",
     "static/media/Frame 12884.png": "/static/media/Frame 12884.b48ca5e527792379fd78.png",
     "static/media/Vector 8.png": "/static/media/Vector 8.6daa2bbe4666b8a7b18a.png",
     "static/media/tiktok2.jpeg": "/static/media/tiktok2.f88c7ebfdc44f261e61b.jpeg",
@@ -44,12 +47,12 @@
     "index.html": "/index.html",
     "static/media/Helvetica.ttf": "/static/media/Helvetica.31d6cfe0d16ae931b73c.ttf",
     "static/media/Helvetica.woff": "/static/media/Helvetica.31d6cfe0d16ae931b73c.woff",
-    "main.abfd7f9e.css.map": "/static/css/main.abfd7f9e.css.map",
-    "main.4699619a.js.map": "/static/js/main.4699619a.js.map",
+    "main.79afcc07.css.map": "/static/css/main.79afcc07.css.map",
+    "main.32e106ef.js.map": "/static/js/main.32e106ef.js.map",
     "453.c15d712a.chunk.js.map": "/static/js/453.c15d712a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abfd7f9e.css",
-    "static/js/main.4699619a.js"
+    "static/css/main.79afcc07.css",
+    "static/js/main.32e106ef.js"
   ]
 }

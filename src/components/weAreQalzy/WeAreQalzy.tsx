@@ -4,7 +4,7 @@ import v2BgImg from "../../images/v2.png";
 const WeAreQalzy: React.FC = () => {
   return (
     <div className="bg-[#FFFFFF] py-12 flex flex-col items-center">
-      <div className="text-center max-w-2xl">
+      <div className="text-center max-w-2xl font-[Open_Sans]">
         <h2 className="text-black leading-[120%] tracking-[0%] text-2xl md:text-3xl font-bold mb-4">
           We Are Qalzy
         </h2>

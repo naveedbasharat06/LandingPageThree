@@ -1,25 +1,25 @@
 // import { div } from "@/components/ui/card";
-import { useState } from "react";
+// import { useState } from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import footprint from "../../images/footprint.png";
 import AddButton from "../../images/Button.png";
 import FireDepartment_icon from "../../images/local_fire_department.png";
 import reachYourGoalFaster_mobile from "../../images/reachURGaol-mobile.png";
-import whiteBg_grandiant from "../../images/whiteBGImg.png";
+// import whiteBg_grandiant from "../../images/whiteBGImg.png";
 import PartyPopperIcon from "../../images/Party Popper.png";
 import "react-circular-progressbar/dist/styles.css";
 import "./ReachYRGoalFaster.css";
-import { motion } from "framer-motion";
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
-  CartesianGrid,
-} from "recharts";
+// import { motion } from "framer-motion";
+// import {
+//   BarChart,
+//   Bar,
+//   XAxis,
+//   YAxis,
+//   Tooltip,
+//   Legend,
+//   ResponsiveContainer,
+//   CartesianGrid,
+// } from "recharts";
 import KcalComsumeCardImg from "../../images/Calories Consumed (kcals)_ copy.png";
 const data = [
   {
