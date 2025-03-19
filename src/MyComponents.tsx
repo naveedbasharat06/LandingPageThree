@@ -16,8 +16,16 @@ import TrackAnyWhereWithQalzyApp from "./components/trackAnyWhereWithQalzy/track
 import QalzyForDimLighting from "./components/AccurateForDimLighting/QalzyForDimLighting";
 // import CaloriesTracker from "./components/reachYourGoalFaster/ReachYRGoalFaster";
 // import FitnessDashboard from "./components/reachYourGoalFaster/ReachYourGoalFaster";
-import chartBGfullImg from "./images/Frame 2147223215.png";
+// import chartBGfullImg from "./images/Frame 2147223215.png";
 import MoreUseSmarterGetByQalzyApp from "./components/moreUseSmarterGet/MoreUseSmarterGet";
+import AlexaGetStartedQalzy from "./components/alexaLogin/AlexaLoginApp";
+import HowQalzyWorks from "./components/howQalzyWorks/HowQalzyWorks";
+import LogMealWithoutPhone from "./components/logMealsWithoutPhone/LogMealWithOutPhone";
+import QalzyDesignForYou from "./components/qalzyDesignForYou/QalzyDesignForYou";
+import WeAreQalzy from "./components/weAreQalzy/WeAreQalzy";
+import WhatsInTheBox from "./components/whatsInBox/WhatsInTheBox";
+import QalzySpecification from "./components/qalzySpecifications/QalzySpecifications";
+import OurSocialMedia from "./components/ourSocialMedia/OurSocialMedia";
 
 const MyComponents: React.FC = () => {
   return (
@@ -42,8 +50,16 @@ const MyComponents: React.FC = () => {
       {/* <ReachYRGoalFaster /> */}
       {/* <FitnessDashboard /> */}
 
-      <img src={chartBGfullImg} alt=" full bg" />
+      {/* <img src={chartBGfullImg} alt=" full bg" /> */}
       <MoreUseSmarterGetByQalzyApp />
+      <AlexaGetStartedQalzy />
+      <HowQalzyWorks />
+      <LogMealWithoutPhone />
+      <QalzyDesignForYou />
+      <WeAreQalzy />
+      <WhatsInTheBox />
+      <QalzySpecification />
+      <OurSocialMedia />
     </div>
   );
 };

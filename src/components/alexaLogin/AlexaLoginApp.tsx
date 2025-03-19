@@ -4,12 +4,12 @@ import AlexaGetStartedQalzyAppImg from "../../images/Image cation.png";
 
 const AlexaGetStartedQalzy: React.FC = () => {
   return (
-    <div>
+    <div className="px-4 py-12 flex flex-col items-center">
       <div className="text-center max-w-2xl">
-        <h2 className="text-black text-2xl md:text-3xl font-bold mb-4">
+        <h2 className="text-black leading-[120%] tracking-[0%] text-2xl md:text-3xl font-bold mb-4">
           Alexa, Log This.
         </h2>
-        <p className="text-black text-base opacity-90 leading-6 px-3">
+        <p className="text-black text-base opacity-90 leading-6 px-auto md:px-20">
           Busy cooking? No need to stop and grab your phone. Qalzy integrates
           with Alexa, so you can track calories with just your voice, and have
           it logged right into the app.
@@ -18,8 +18,8 @@ const AlexaGetStartedQalzy: React.FC = () => {
       <div className="mt-4 md:mt-8 w-full max-w-3xl">
         <img
           src={AlexaGetStartedQalzyAppImg}
-          alt="App Preview"
-          className="rounded-lg shadow-lg w-full"
+          alt="Alexa Preview"
+          className="rounded-lg  w-full"
         />
       </div>
     </div>
