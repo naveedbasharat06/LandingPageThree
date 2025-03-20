@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.79afcc07.css",
-    "main.js": "/static/js/main.32e106ef.js",
+    "main.css": "/static/css/main.8a209db0.css",
+    "main.js": "/static/js/main.d074b6be.js",
     "static/js/453.c15d712a.chunk.js": "/static/js/453.c15d712a.chunk.js",
     "static/media/nutrioScaleMobile.jpg": "/static/media/nutrioScaleMobile.80fe85b276774b2e5f19.jpg",
     "static/media/Image cation.png": "/static/media/Image cation.4e138f46926bb9dea0d3.png",
@@ -47,12 +47,12 @@
     "index.html": "/index.html",
     "static/media/Helvetica.ttf": "/static/media/Helvetica.31d6cfe0d16ae931b73c.ttf",
     "static/media/Helvetica.woff": "/static/media/Helvetica.31d6cfe0d16ae931b73c.woff",
-    "main.79afcc07.css.map": "/static/css/main.79afcc07.css.map",
-    "main.32e106ef.js.map": "/static/js/main.32e106ef.js.map",
+    "main.8a209db0.css.map": "/static/css/main.8a209db0.css.map",
+    "main.d074b6be.js.map": "/static/js/main.d074b6be.js.map",
     "453.c15d712a.chunk.js.map": "/static/js/453.c15d712a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79afcc07.css",
-    "static/js/main.32e106ef.js"
+    "static/css/main.8a209db0.css",
+    "static/js/main.d074b6be.js"
   ]
 }

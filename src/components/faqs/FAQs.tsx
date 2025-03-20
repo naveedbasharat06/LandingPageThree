@@ -92,7 +92,7 @@ const FAQ: React.FC = () => {
                       className="overflow-hidden z-20"
                     >
                       <div className="p-2 md:p-4 bg-white">
-                        <p className="text-gray-600 font-[inter]">
+                        <p className="text-gray-600 text-sm md:text-base lg:text-lg font-[inter]">
                           {item.answer}
                         </p>
                       </div>
