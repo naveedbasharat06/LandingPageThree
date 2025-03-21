@@ -9,7 +9,7 @@ const TrackCalories: React.FC = () => {
           <h2 className="text-2xl font-bold font-[Open_Sans]">
             Faster than Cracking an Egg
           </h2>
-          <p className="text-black opacity-80 mt-2 md:mt-4 font-normal text-base leading-[150%] tracking-0 font-[Open_Sans]">
+          <p className="text-[#171923] mt-2 md:mt-4 font-normal text-base leading-[150%] tracking-0 font-[Open_Sans]">
             No more manual typing and searching for ingredients in confusing
             databases. Tracking calories with Qalzy takes just 4 seconds of your
             time. One quick press of a button. That’s 5x faster than trying to

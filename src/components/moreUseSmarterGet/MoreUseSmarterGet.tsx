@@ -10,12 +10,12 @@ const tickCard = [
 
 const MoreUseSmarterGetByQalzyApp: React.FC = () => {
   return (
-    <div className="more_use_smarter_get px-4 py-12 flex flex-col items-center">
-      <div className="text-center max-w-2xl">
-        <h2 className="text-black text-2xl  font-bold mb-4 font-[Open_Sans]">
+    <div className="more_use_smarter_get px-2 md:px-4 py-12 lg:py-16 flex flex-col items-center">
+      <div className="text-center max-w-[546px]">
+        <h2 className="text-[#171923] text-2xl px-2 md:px-0  font-bold mb-4 font-[Open_Sans]">
           The More You Use It, The Smarter It Gets.
         </h2>
-        <p className="text-black text-base opacity-90 leading-6 px-2 md:px-6 lg:px-20 font-[Open_Sans]">
+        <p className="text-[#171923] text-base  leading-6 font-[Open_Sans]">
           Qalzy’s AI learns from your food choices, recognizing your custom
           recipes and favorite ingredients with just one photo. It adapts to
           your diet and preferences over time, making logging and tracking even
@@ -23,11 +23,11 @@ const MoreUseSmarterGetByQalzyApp: React.FC = () => {
         </p>
       </div>
 
-      <div className="flex flex-row gap-2 md:gap-2 lg:gap-3 mt-6">
+      <div className="flex flex-row gap-2 md:gap-2 lg:gap-3 mt-5">
         {tickCard.map((item) => (
           <div
             key={item.id}
-            className="moreUserGetSmater_tick_card flex items-center shadow-[0_0_40px_rgba(0,0,0,0.25)] bg-white rounded-xl px-1 md:px-3 lg:px-6 py-1 md:py-1.5 lg:py-2"
+            className="moreUserGetSmater_tick_card flex items-center shadow-[0_0_40px_rgba(0,0,0,0.25)] bg-white rounded-xl px-1 md:px-3 lg:px-6 py-1 md:py-1.5 lg:py-2.5"
           >
             <img
               src={item.tickIcon}

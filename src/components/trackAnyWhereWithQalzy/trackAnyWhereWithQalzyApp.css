@@ -1,3 +1,25 @@
+.TrackAnywhere_withQalzyApp_flexMobile {
+  display: flex;
+  align-items: flex-end; /* Align images to the bottom */
+  gap: 13px;
+}
+
+.TotalCaloriesWrapper {
+  display: flex;
+  align-items: flex-end; /* Ensure the image stays at the bottom */
+}
+
+.TotalCaloriesMobileScreen {
+  height: 778px; /* Adjust the height */
+  width: auto;
+  object-fit: contain;
+}
+.GirleScaningFoodImg {
+  /* position: absolute; */
+  width: 38%;
+  z-index: 1;
+  height: 50%;
+}
 .TrackAnywhere_withQalzyApp {
   position: relative;
   background-color: #ffffff;
@@ -7,26 +29,15 @@
 }
 .TrackAnywhere_withQalzyApp_flexMobile {
 }
-.GirleScaningFoodImg {
-  /* position: absolute; */
-  width: 35%;
-  z-index: 1;
-}
-.TotalCaloriesMobileScreen {
-  position: relative;
-  width: auto;
-  z-index: 30;
-}
-.TrackAnyWhere_GreenBgImg {
-  /* background-image: url("../../images/Frame 2147223146.png"); */
-  background-repeat: no-repeat;
-  background-size: contain;
+
+.TrackAnyWhere_GreenBgImgContainer {
   position: absolute;
-  width: 33%;
-  z-index: 0;
-  right: 15%;
-  bottom: 5%;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
+
 /* qalzy app feature styling */
 .qalzy_app_features {
 }
@@ -47,29 +58,28 @@
     gap: 3px;
   }
   .TrackAnywhere_withQalzyApp_flexMobile {
+    display: flex;
+    align-items: flex-end; /* Align images to the bottom */
   }
+
+  .TotalCaloriesWrapper {
+    display: flex;
+    align-items: flex-end; /* Ensure the image stays at the bottom */
+  }
+
+  .TotalCaloriesMobileScreen {
+    height: 600px; /* Adjust the height */
+    width: auto;
+    object-fit: contain;
+  }
+
   .GirleScaningFoodImg {
     /* position: absolute; */
-    width: 34%;
+    width: 428px;
     z-index: 1;
-    height: 50%;
+    height: 628px;
   }
-  .TotalCaloriesMobileScreen {
-    position: relative;
-    width: 29%;
-    height: 30%;
-    z-index: 2;
-  }
-  .TrackAnyWhere_GreenBgImg {
-    /* background-image: url("../../images/Frame 2147223146.png"); */
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    width: 35%;
-    z-index: 0;
-    right: 12%;
-    bottom: 5%;
-  }
+
   /* qalzy app feature styling */
   .qalzy_app_features {
   }
@@ -92,29 +102,29 @@
     gap: 3px;
   }
   .TrackAnywhere_withQalzyApp_flexMobile {
+    display: flex;
+    align-items: flex-end; /* Align images to the bottom */
+    gap: 10px;
   }
+
+  .TotalCaloriesWrapper {
+    display: flex;
+    align-items: flex-end; /* Ensure the image stays at the bottom */
+  }
+
+  .TotalCaloriesMobileScreen {
+    height: 453px; /* Adjust the height */
+    width: auto;
+    object-fit: contain;
+  }
+
   .GirleScaningFoodImg {
     /* position: absolute; */
-    width: 34%;
+    width: 360px;
     z-index: 1;
     height: 50%;
   }
-  .TotalCaloriesMobileScreen {
-    position: relative;
-    width: 29%;
-    height: 30%;
-    z-index: 2;
-  }
-  .TrackAnyWhere_GreenBgImg {
-    /* background-image: url("../../images/Frame 2147223146.png"); */
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    width: 35%;
-    z-index: 0;
-    right: 12%;
-    bottom: 6%;
-  }
+
   /* qalzy app feature styling */
   .qalzy_app_features {
   }
@@ -137,29 +147,28 @@
     gap: 3px;
   }
   .TrackAnywhere_withQalzyApp_flexMobile {
+    display: flex;
+    align-items: flex-end; /* Align images to the bottom */
   }
+
+  .TotalCaloriesWrapper {
+    display: flex;
+    align-items: flex-end; /* Ensure the image stays at the bottom */
+  }
+
+  .TotalCaloriesMobileScreen {
+    height: 100%; /* Adjust the height */
+    width: auto;
+    object-fit: contain;
+  }
+
   .GirleScaningFoodImg {
     /* position: absolute; */
-    width: 36%;
+    width: 320px;
     z-index: 1;
     height: 50%;
   }
-  .TotalCaloriesMobileScreen {
-    position: relative;
-    width: 31%;
-    height: 30%;
-    z-index: 2;
-  }
-  .TrackAnyWhere_GreenBgImg {
-    /* background-image: url("../../images/Frame 2147223146.png"); */
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    width: 35%;
-    z-index: 0;
-    right: 12%;
-    bottom: 7%;
-  }
+
   /* qalzy app feature styling */
   .qalzy_app_features {
   }
@@ -176,10 +185,34 @@
   }
 }
 @media (max-width: 680px) {
+  .TrackAnywhere_withQalzyApp_flexMobile {
+    display: flex;
+    align-items: flex-end; /* Align images to the bottom */
+    gap: 10px;
+  }
+
+  .TotalCaloriesWrapper {
+    display: flex;
+    align-items: flex-end; /* Ensure the image stays at the bottom */
+  }
+
+  .TotalCaloriesMobileScreen {
+    height: 300px; /* Adjust the height */
+    width: auto;
+    object-fit: contain;
+  }
+  .GirleScaningFoodImg {
+    /* position: absolute; */
+    width: 38%;
+    z-index: 1;
+    height: 50%;
+  }
+
   .qalzy_app_features .card {
     width: 24%;
     padding: 8px 11px;
   }
+
   .qalzy_app_features .card img {
     width: 38px;
   }
@@ -189,6 +222,23 @@
   }
 }
 @media (max-width: 425px) {
+  .TrackAnywhere_withQalzyApp_flexMobile {
+    display: flex;
+    align-items: flex-end; /* Align images to the bottom */
+    gap: 8px;
+  }
+
+  .TotalCaloriesWrapper {
+    display: flex;
+    align-items: flex-end; /* Ensure the image stays at the bottom */
+  }
+
+  .TotalCaloriesMobileScreen {
+    height: 255px; /* Adjust the height */
+    width: auto;
+    object-fit: contain;
+  }
+
   .TrackAnywhere_withQalzyApp {
     position: relative;
   }
@@ -199,26 +249,11 @@
   }
   .GirleScaningFoodImg {
     /* position: absolute; */
-    width: 42%;
+    width: 50%;
     z-index: 1;
     height: 50%;
   }
-  .TotalCaloriesMobileScreen {
-    position: relative;
-    width: 36%;
-    height: 30%;
-    z-index: 2;
-  }
-  .TrackAnyWhere_GreenBgImg {
-    /* background-image: url("../../images/Frame 2147223146.png"); */
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    width: 45%;
-    z-index: 0;
-    right: 4%;
-    bottom: 8%;
-  }
+
   /* qalzy app feature styling */
   .qalzy_app_features {
   }
@@ -242,29 +277,29 @@
     gap: 3px;
   }
   .TrackAnywhere_withQalzyApp_flexMobile {
+    display: flex;
+    align-items: flex-end; /* Align images to the bottom */
+    gap: 6px;
   }
+
+  .TotalCaloriesWrapper {
+    display: flex;
+    align-items: flex-end; /* Ensure the image stays at the bottom */
+  }
+
+  .TotalCaloriesMobileScreen {
+    height: 214px; /* Adjust the height */
+    width: auto;
+    object-fit: contain;
+  }
+
   .GirleScaningFoodImg {
     /* position: absolute; */
-    width: 48%;
+    width: 50%;
     z-index: 1;
     height: 50%;
   }
-  .TotalCaloriesMobileScreen {
-    position: relative;
-    width: 41%;
-    height: 30%;
-    z-index: 2;
-  }
-  .TrackAnyWhere_GreenBgImg {
-    /* background-image: url("../../images/Frame 2147223146.png"); */
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    width: 46%;
-    z-index: 0;
-    right: 2%;
-    bottom: 8%;
-  }
+
   /* qalzy app feature styling */
   .qalzy_app_features {
   }

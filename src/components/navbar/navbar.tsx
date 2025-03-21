@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
         </a>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-10 text-gray-700 font-medium">
+        <div className="font-[Helvetica] hidden md:flex md:space-x-12 lg:space-x-16 text-gray-900 font-normal">
           <a href="./AIScale" className="hover:text-green-500">
             AI Scale
           </a>
@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            className="navbar_mobile_links z-50 absolute top-12 px-8  md:hidden flex flex-col bg-white border-t border-gray-200 mt-6 text-center"
+            className="navbar_mobile_links font-[Helvetica] z-50 absolute top-12 px-8  md:hidden flex flex-col bg-white border-t border-gray-200 mt-6 text-center"
             variants={mobileMenuVariants}
             initial="closed"
             animate="open"

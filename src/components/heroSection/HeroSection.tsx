@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
           Lorem ipsum dolor sit amet consectetur. Enim vel pulvinar auctor id.
           Scelerisque in et molestie eget in auctor bibendum feugiat.
         </p>
-        <h3 className="relative font-[Helvetica] text-white text-[36px] text-center md:text-start leading-[100%] mt-4">
+        <h3 className="relative font-[Helvetica] text-white text-4xl text-center md:text-start leading-[100%] mt-4">
           Get 50% discount
         </h3>
         <div className=" flex flex-col md:flex-row gap-4 mt-4 text-white items-center justify-center md:justify-start">

@@ -7,12 +7,12 @@ import Frame12886 from "../../images/Frame 12886.png";
 
 const QalzyDesignForYou: React.FC = () => {
   return (
-    <div className="bg-[#F9F9F9] py-12 flex flex-col items-center">
-      <div className="text-center max-w-2xl">
-        <h2 className="text-black leading-[120%] tracking-[0%] text-2xl font-bold mb-4 font-[Open_Sans]">
+    <div className="bg-[#F9F9F9] py-11 flex flex-col items-center">
+      <div className="text-center max-w-[546px]">
+        <h2 className="text-[#171923] leading-[120%] tracking-[0%] text-2xl font-bold mb-4 font-[Open_Sans]">
           Designed for You
         </h2>
-        <p className="text-black text-base opacity-90 leading-6 px-auto px-4 md:px-20 font-[Open_Sans]">
+        <p className="text-[#171923] text-base px-2 md:px-auto leading-6  font-[Open_Sans]">
           With a sleek tempered glass surface, splash-proof design, and
           rechargeable battery, Qalzy is built for everyday use. It integrates
           seamlessly into your kitchen, making tracking fast, simple, and

@@ -99,13 +99,20 @@
   .TrackCaloriesBy_wrapper {
   }
   .TrackCalorie_text {
-    width: 330px;
+    width: 351px;
     padding: 33px 0px 30px 0px;
     z-index: 40;
   }
   .trackCalories_bgImg {
     width: 88%;
     height: 255px;
+  }
+}
+@media (max-width: 350px) {
+  .TrackCalorie_text {
+    width: 320px;
+    padding: 33px 0px 30px 0px;
+    z-index: 40;
   }
 }
 @media (max-width: 320px) {

@@ -137,10 +137,10 @@ const CaloriesConsumedMeasure: React.FC = () => {
                         }}
                       >
                         <span className="text-xs md:text-sm text-black mt-1">
-                          750
+                          {750}
                         </span>{" "}
                         <br />
-                        <span className="text-[8px] text-black mb-2">
+                        <span className="text-[8px] md:text-[9px] text-black mb-2">
                           Remaining
                         </span>
                       </div>

@@ -18,7 +18,7 @@ const MostAccurateTrackkcal: React.FC = () => {
           <h2 className="text-2xl font-bold font-[Open_Sans]">
             The Most Accurate Tracking for Rapid Results
           </h2>
-          <p className="text-black opacity-80 mt-2 md:mt-4 font-normal text-base leading-[150%] tracking-0 font-[Open_Sans]">
+          <p className="text-[#171923]  mt-2 md:mt-4 font-normal text-base leading-[150%] tracking-0 font-[Open_Sans]">
             Counting calories but not losing weight? AI meal scanner apps only
             estimate portions, Qalzy weighs your food down to the gram, so you
             can lose weight, effectively.

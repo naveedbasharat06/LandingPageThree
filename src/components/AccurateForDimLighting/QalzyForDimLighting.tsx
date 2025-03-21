@@ -28,11 +28,11 @@ const QalzyForDimLighting: React.FC = () => {
   return (
     <div className="QalzyForDimLighting">
       <div className="">
-        <div className="TrackAnywhere_withQalzyApp_content mx-auto py-12 text-center items-center w-[95%] md:w-[546px]">
-          <h2 className="text-black text-2xl leading-[120%] font-bold mb-4 font-[Open_Sans]">
+        <div className="TrackAnywhere_withQalzyApp_content mx-auto py-12 text-center items-center w-[98%] md:w-[546px]">
+          <h2 className="text-[#171923] text-2xl leading-[120%] font-bold mb-4 font-[Open_Sans]">
             Accurate Even in Dim Lighting
           </h2>
-          <p className="text-black text-base opacity-90 leading-[150%] tracking-0 font-[Open_Sans]">
+          <p className="text-[#171923] text-base leading-[150%] tracking-0 font-[Open_Sans]">
             Lighting conditions can affect food recognition accuracy. That’s why
             Qalzy is equipped with a kitchen-safe LED flash that ensures clear,
             high-quality images - even in dim lighting. Perfect for when you’re
@@ -127,7 +127,7 @@ const QalzyForDimLighting: React.FC = () => {
                           ></span>
 
                           {/* Label and Value */}
-                          <span className="flex justify-between w-full ">
+                          <span className="flex justify-between w-full pb-0 md:pb-1">
                             <p className="enerySummary_extraSmall_text text-sm lg:text-base font-[Inter]">
                               {item.title}
                             </p>

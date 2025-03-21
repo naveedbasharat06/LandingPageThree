@@ -5,13 +5,10 @@
 .kcal_measureByAI_content {
 }
 .kcal_measureByAI_content h2 {
-  font-family: sans-serif !important;
   font-weight: 700;
 }
 .kcal_measureByAI_content p {
-  font-family: sans-serif;
   margin-top: 16px;
-  font-size: 16px;
 }
 .kcal_measureByAI_PauseVideoIcon {
   position: absolute;

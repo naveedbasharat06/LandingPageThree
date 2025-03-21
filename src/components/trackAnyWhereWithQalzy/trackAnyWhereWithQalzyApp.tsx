@@ -1,7 +1,7 @@
 import React from "react";
 import GirleScaningFoodImg from "../../images/Frame 2147223145.png";
-import TotalCaloriesMobileScreen from "../../images/totalkcalMObile.png";
-// import TotalkcalPreviewBgGreen from "../../images/kcalframeBgGreen.PNG";
+// import TotalCaloriesMobileScreen from "../../images/totalkcalMObile.png";
+
 // import GreenBgImg from "../../images/Frame 2147223146.png";
 import "./trackAnyWhereWithQalzyApp.css";
 import ScanBarcodeIcon from "../../images/scanBarcode.png";
@@ -9,6 +9,7 @@ import takePhotoOfMealIcon from "../../images/takePhoto.png";
 import voiceCommandsIcon from "../../images/voiceCommand.png";
 import AppStoreLogo from "../../images/image 63.png";
 import GooglePlayLogo from "../../images/image 64.png";
+const TotalkcalPreviewBgGreen1 = require("../../images/kcalMobileViewBgGreen.PNG");
 // import { twMerge } from "tailwind-merge";
 // interface QALZY_APP_FUNCTIONALITYT :{
 // }
@@ -32,11 +33,11 @@ const QALZY_APP_FUNCTIONALITY = [
 const TrackAnyWhereWithQalzyApp: React.FC = () => {
   return (
     <div className="TrackAnywhere_withQalzyApp">
-      <div className="TrackAnywhere_withQalzyApp_content mx-auto py-24 text-center items-center w-[95%] md:w-[546px]">
-        <h2 className="text-black text-2xl leading-[120%] font-bold mb-4 font-[Open_Sans]">
+      <div className="TrackAnywhere_withQalzyApp_content mx-auto py-12 md:py-24 text-center items-center w-[95%] md:w-[546px]">
+        <h2 className="text-[#171923] text-2xl leading-[120%] font-bold mb-4 font-[Open_Sans]">
           Track Anywhere With The Qalzy App
         </h2>
-        <p className="text-black text-base opacity-90 leading-[150%] tracking-0 font-[Open_Sans]">
+        <p className="text-[#171923] text-base leading-[150%] tracking-0 font-[Open_Sans]">
           Can’t bring your scale everywhere? No worries. The Qalzy app lets you
           scan barcodes, take photos of meals, or use voice commands to track
           calories wherever you are. Automatically syncs to your dashboard for a
@@ -44,30 +45,25 @@ const TrackAnyWhereWithQalzyApp: React.FC = () => {
         </p>
       </div>
       <div className="">
-        <div className="TrackAnywhere_withQalzyApp_flexMobile flex justify-center mx-auto pb-6 md:pb-7 lg:pb-14 gap-6">
+        <div className="TrackAnywhere_withQalzyApp_flexMobile flex justify-center items-end mx-auto pb-6 md:pb-7 lg:pb-14 gap-4">
           <img
             className="GirleScaningFoodImg"
             src={GirleScaningFoodImg}
             alt="scan kcal"
           />
-          {/* <span className="TrackAnyWhere_GreenBgImg"> */}
-          <img
-            className="TotalCaloriesMobileScreen"
-            src={TotalCaloriesMobileScreen}
-            alt="total kcal mobile view"
-          />
-          {/* </span> */}
-          {/* <img
-            className="TrackAnyWhere_GreenBgImg"
-            src={GreenBgImg}
-            alt="green bg"
-          /> */}
+          <div className="TotalCaloriesWrapper">
+            <img
+              className="TotalCaloriesMobileScreen"
+              src={TotalkcalPreviewBgGreen1}
+              alt="total kcal mobile view"
+            />
+          </div>
         </div>
         <div className="qalzy_app_features flex flex-row justify-center mx-auto items-center gap-1 md:gap-3">
           {QALZY_APP_FUNCTIONALITY.map((item, indx) => (
             <div
               key={indx}
-              className="card relative bg-[#F5F5F5] hover:bg-white rounded-[30px] gap-4 hover:shadow-lg transition delay-150 duration-00 ease-in-out hover:-translate-y-1 hover:scale-105"
+              className="card relative bg-[#F5F5F5] hover:bg-white rounded-[30px] gap-4 hover:shadow-lg transition delay-150 duration-00 ease-in-out hover:-translate-y-1 hover:scale-105 hover:z-30"
             >
               <img
                 className="relative mx-auto items-center"

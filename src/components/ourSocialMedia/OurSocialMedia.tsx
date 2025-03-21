@@ -3,17 +3,36 @@ import tiktokpost1 from "../../images/Imagetiktok.png";
 import tiktokpost2 from "../../images/tiktok-post2.png";
 import tiktokpost3 from "../../images/titokpost3.png";
 import tiktokpost4 from "../../images/tiktok2.jpeg";
+import tiktokpost5 from "../../images/tiktok-post02.png";
+import tiktokpost6 from "../../images/tiktok-post03.png";
+import tiktokpost7 from "../../images/tiktok2.jpeg";
 import tiktokNextSlideIcon from "../../images/ep_arrow-up-bold2.png";
 import tiktokprevSlideIcon from "../../images/ep_arrow-up-bold.png";
 import playIcon from "../../images/Polygon02.png";
+import pauseIcon from "../../images/pauseTikTok.png";
+
 import "./OurSocialMedia.css";
 
-const slides = [tiktokpost3, tiktokpost2, tiktokpost1, tiktokpost4];
+const slides = [
+  tiktokpost3,
+  tiktokpost2,
+  tiktokpost1,
+  tiktokpost4,
+  tiktokpost5,
+  tiktokpost6,
+  tiktokpost7,
+];
 
 const OurSocialMedia: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
-
+  const [playVideoIcon, SetPlayVideoIcon] = useState(playIcon);
+  const handleChangeIcon = (e: any) => {
+    e.preventDefault();
+    SetPlayVideoIcon((prevIcon: any) =>
+      prevIcon === playIcon ? pauseIcon : playIcon
+    );
+  };
   const prevSlide = () => {
     setCurrentIndex((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
@@ -42,13 +61,12 @@ const OurSocialMedia: React.FC = () => {
   };
 
   return (
-    <div className="bg-[#FFFFFF] relative w-full flex flex-col items-center">
-      <h2 className="font-[Inter] text-3xl md:text-5xl font-normal my-4 md:my-10 text-center">
+    <div className="pb-2 lg:pb-16 bg-[#FFFFFF] relative w-full flex flex-col items-center">
+      <h2 className="font-[Inter] text-3xl md:text-5xl font-normal my-0 md:my-10 text-center">
         From Our Socials
       </h2>
-
       <div
-        className="relative w-[320px] md:w-[760px] lg:w-[1000px] h-[600px] md:h-[733px] flex justify-center items-center overflow-hidden mx-auto"
+        className=" relative w-[60%] md:w-[760px] lg:w-[85%] h-[500px] md:h-[800px] flex justify-center items-center overflow-hidden mx-auto"
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
       >
@@ -57,13 +75,12 @@ const OurSocialMedia: React.FC = () => {
           const isPrev =
             index === (currentIndex - 1 + slides.length) % slides.length;
           const isNext = index === (currentIndex + 1) % slides.length;
-
           return (
             <div
               key={index}
-              className={`absolute transition-transform duration-500 ease-in-out rounded-2xl ${
+              className={`absolute  transition-transform duration-500 ease-in-out rounded-2xl ${
                 isActive
-                  ? "scale-105 z-20"
+                  ? "h-[500px] md:h-[750px] scale-105 z-20"
                   : isPrev || isNext
                   ? "scale-90 opacity-90 z-10"
                   : "opacity-0"
@@ -77,13 +94,14 @@ const OurSocialMedia: React.FC = () => {
               <img
                 src={slide}
                 alt={`Slide ${index}`}
-                className="w-[325px] md:w-[404px] h-[490px] md:h-[720px] rounded-[2rem] object-contain"
+                className="w-[425px] md:w-[404px] h-[490px] md:h-[720px] rounded-[2rem] object-contain"
               />
               {isActive && (
-                <div className="absolute inset-0 flex items-center justify-center  rounded-3xl">
+                <div className="absolute inset-0 flex items-center justify-center">
                   <img
-                    className="w-16 cursor-pointer mb-5"
-                    src={playIcon}
+                    className="w-8 md:w-12 lg:w-16 cursor-pointer mb-5"
+                    src={playVideoIcon}
+                    onClick={handleChangeIcon}
                     alt="playIcon"
                   />
                 </div>

@@ -48,7 +48,7 @@ const FAQ: React.FC = () => {
 
   return (
     <div className="max-w-7xl mx-auto py-8 md:py-10 lg:py-16 px-2 md:px-2">
-      <h1 className="font-[Inter] text-[32px] md:text-4xl lg:text-5xl leading-[100%] tracking-[0%] text-center font-normal  ">
+      <h1 className="font-[Inter] text-[32px] md:text-4xl lg:text-5xl leading-[100%] tracking-[0%] text-center font-normal">
         Frequently Asked Questions
       </h1>
       <p className="text-center text-base md:text-xl text-black font-[Helvetica] leading-[100%] tracking-[0%] mt-4 mb-8">
