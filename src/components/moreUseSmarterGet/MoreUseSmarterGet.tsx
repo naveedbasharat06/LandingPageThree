@@ -23,7 +23,7 @@ const MoreUseSmarterGetByQalzyApp: React.FC = () => {
         </p>
       </div>
 
-      <div className="flex flex-row gap-2 md:gap-2 lg:gap-3 mt-5">
+      <div className="flex flex-row gap-4 md:gap-2 lg:gap-3 mt-5">
         {tickCard.map((item) => (
           <div
             key={item.id}
@@ -41,7 +41,7 @@ const MoreUseSmarterGetByQalzyApp: React.FC = () => {
         ))}
       </div>
 
-      <div className="mt-4 md:mt-8 w-full max-w-3xl">
+      <div className="mt-4 md:mt-8 px-2 w-full max-w-3xl">
         <img
           src={moreuseSmarterGetImg}
           alt="App Preview"

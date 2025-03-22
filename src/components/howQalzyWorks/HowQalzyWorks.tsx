@@ -4,7 +4,7 @@ import HowItWorksImg from "../../images/Frame 2147223216.png";
 
 const HowQalzyWorks: React.FC = () => {
   return (
-    <div className="bg-[#F9F9F9] py-12 flex flex-col items-center">
+    <div className="bg-[#F9F9F9] py-6 md:py-12 flex flex-col items-center">
       <div className="text-center max-w-[546px]">
         <h2 className="text-[#171923] leading-[120%] tracking-[0%] text-2xl font-bold mb-4 font-[Open_Sans]">
           How It Works

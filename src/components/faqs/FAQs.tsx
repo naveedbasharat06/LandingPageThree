@@ -76,6 +76,7 @@ const FAQ: React.FC = () => {
                   </span>
                 </button>
                 <hr
+                  id="horizontal_Line"
                   style={{
                     height: "1px",
                     color: "#F0EEEA",

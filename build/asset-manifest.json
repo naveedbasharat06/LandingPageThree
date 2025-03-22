@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0150d48.css",
-    "main.js": "/static/js/main.a18b9d10.js",
+    "main.css": "/static/css/main.71d8f22a.css",
+    "main.js": "/static/js/main.cdf6fe4f.js",
     "static/js/453.c15d712a.chunk.js": "/static/js/453.c15d712a.chunk.js",
     "static/media/nutrioScaleMobile.jpg": "/static/media/nutrioScaleMobile.80fe85b276774b2e5f19.jpg",
     "static/media/Image cation.png": "/static/media/Image cation.4e138f46926bb9dea0d3.png",
@@ -33,7 +33,9 @@
     "static/media/image 50.png": "/static/media/image 50.05312f6be3ef0b937281.png",
     "static/media/router.png": "/static/media/router.aedf8da82442d925dc69.png",
     "static/media/Frame 2147223201.png": "/static/media/Frame 2147223201.29566f1e603b3f0402b0.png",
+    "static/media/reachURGaol-mobile.png": "/static/media/reachURGaol-mobile.e8f532c5d589b12bbf68.png",
     "static/media/Close Up detail - Packed Down G - No wire 2.png": "/static/media/Close Up detail - Packed Down G - No wire 2.6414ea7beb97654960fb.png",
+    "static/media/whiteBGImg.png": "/static/media/whiteBGImg.e2d8223cb59ebda4809f.png",
     "static/media/Frame 12884.png": "/static/media/Frame 12884.b48ca5e527792379fd78.png",
     "static/media/Vector 8.png": "/static/media/Vector 8.6daa2bbe4666b8a7b18a.png",
     "static/media/tiktok2.jpeg": "/static/media/tiktok2.f88c7ebfdc44f261e61b.jpeg",
@@ -42,6 +44,7 @@
     "static/media/Vector04.png": "/static/media/Vector04.0a57e6edc27160a9ed3e.png",
     "static/media/Frame 12885.png": "/static/media/Frame 12885.79065afae6cb54b634f2.png",
     "static/media/pauseTikTok.png": "/static/media/pauseTikTok.03dc8525f945ea52ad1c.png",
+    "static/media/Calories Consumed (kcals)_ copy.png": "/static/media/Calories Consumed (kcals)_ copy.bb1b68bb60647f639b78.png",
     "static/media/Vector 1 (3).png": "/static/media/Vector 1 (3).532d92782710757a1c47.png",
     "static/media/horizontalLine.png": "/static/media/horizontalLine.566d0661fb5a0df8ac4e.png",
     "static/media/Vector02.png": "/static/media/Vector02.57bd5c0ed306cd81beab.png",
@@ -50,12 +53,12 @@
     "index.html": "/index.html",
     "static/media/Helvetica.ttf": "/static/media/Helvetica.31d6cfe0d16ae931b73c.ttf",
     "static/media/Helvetica.woff": "/static/media/Helvetica.31d6cfe0d16ae931b73c.woff",
-    "main.f0150d48.css.map": "/static/css/main.f0150d48.css.map",
-    "main.a18b9d10.js.map": "/static/js/main.a18b9d10.js.map",
+    "main.71d8f22a.css.map": "/static/css/main.71d8f22a.css.map",
+    "main.cdf6fe4f.js.map": "/static/js/main.cdf6fe4f.js.map",
     "453.c15d712a.chunk.js.map": "/static/js/453.c15d712a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0150d48.css",
-    "static/js/main.a18b9d10.js"
+    "static/css/main.71d8f22a.css",
+    "static/js/main.cdf6fe4f.js"
   ]
 }

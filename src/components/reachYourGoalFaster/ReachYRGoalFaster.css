@@ -12,46 +12,71 @@
   height: 200px;
   border-radius: 20px;
   padding: 20px;
-
   z-index: 10;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 @media (max-width: 1024px) {
+  .ReacYourGoalFaster {
+    background-image: #ffffff !important;
+    max-width: 1024px;
+  }
   .ReachURGoalFaster_calorieConsume_Progress_card {
     position: relative;
     top: -8%;
     left: 2%;
-    width: 200px;
-    height: 150px;
-    border-radius: 20px;
+    width: 190px;
+    height: 140px;
+    border-radius: 15px;
     padding: 10px;
-
     z-index: 10;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 }
-/* tsx code  */
-/* <div className="p-4 rounded-xl shadow-2xl bg-white w-[361px]">
-          <span className="flex justify-between">
-            <h2 className="text-base font-[Inter] font-semibold">
-              Calories Consumed (kcals)
-            </h2>
-            <span className="text-black font-[Inter] opacity-50 text-sm leading-[22px]">
-              Aug 19 - Sep 08
-            </span>
-          </span>
-
-          <ResponsiveContainer width="100%" height={250}>
-            <BarChart data={data}>
-              <CartesianGrid strokeDasharray="7 8" />
-              <XAxis dataKey="name" />
-              <YAxis />
-              <Tooltip />
-              <Legend align="center" verticalAlign="bottom" />
-              <Bar dataKey="Protein" stackId="a" fill="#F2BA4C" />
-              <Bar dataKey="Carbs" stackId="a" fill="#57A04C" />
-              <Bar dataKey="Fat" stackId="a" fill="#EB5757" />
-              <Bar dataKey="Alcohol" stackId="a" fill="#2F80ED" />
-            </BarChart>
-          </ResponsiveContainer>
-        </div> */
+@media (max-width: 768px) {
+  .ReacYourGoalFaster {
+    background-image: #ffffff !important;
+    max-width: 768px;
+    /* height: 400px; */
+  }
+  .ReachURGoalFaster_calorieConsume_Progress_card {
+    position: relative;
+    top: -8%;
+    left: 2%;
+    width: 159px;
+    height: 118px;
+    border-radius: 10x;
+    padding: 1px;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .reachYourGoal_Mobilescreen {
+  }
+  .reachYourGoal_Mobilescreen img {
+    width: 400px !important;
+    height: 350px;
+    /* background-color: aquamarine; */
+    z-index: 1;
+  }
+}
+@media (max-width: 460px) {
+  .ReachURGoalFaster_calorieConsume_Progress_card {
+    position: relative;
+    top: -8%;
+    left: 2%;
+    width: 157px;
+    height: 110px;
+    border-radius: 10px;
+    padding: 1px;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .reachYourGoal_Mobilescreen {
+    display: none;
+    /* position: absolute; */
+  }
+  .reachYourGoal_Mobilescreen img {
+    width: 100% !important;
+    height: 300px;
+    /* background-color: aquamarine; */
+  }
+}
