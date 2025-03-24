@@ -1,5 +1,6 @@
 .QalzyForDimLighting {
   background-color: #f5f5f5;
+  position: relative;
 }
 .DimLIghting_grandiantBg_line {
   background-image: url("../../images/Vector04.png");

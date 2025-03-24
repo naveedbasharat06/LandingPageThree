@@ -128,10 +128,10 @@ const QalzyForDimLighting: React.FC = () => {
 
                           {/* Label and Value */}
                           <span className="flex justify-between w-full pb-0 md:pb-1">
-                            <p className="enerySummary_extraSmall_text text-sm lg:text-base font-[Inter]">
+                            <p className="enerySummary_extraSmall_text text-xs lg:text-base font-[Inter]">
                               {item.title}
                             </p>
-                            <h5 className="enerySummary_extraSmall_text text-sm lg:text-base font-[Inter] font-medium relative left-3">
+                            <h5 className="enerySummary_extraSmall_text text-xs lg:text-base font-[Inter] font-medium relative left-3">
                               {item.kcalWeight}g
                             </h5>
                           </span>

@@ -170,7 +170,7 @@ export default function FitnessDashboard() {
         {/* reachYourGoalFaster_getBetterEveryDayWrapper */}
         <div className="reachYourGoalFaster_getBetterEveryDayWrapper">
           <div className="exercise_kcalCircularProgressBar_wrapper">
-            <div className="exercise_kcalCircularProgress_bar flex flex-row gap-2 md:gap-3 lg:gap-5">
+            <div className="exercise_kcalCircularProgress_bar flex flex-row gap-1 md:gap-3 lg:gap-5">
               {/* circular progress card */}
               <div className="ReachURGoalFaster_calorieConsume_Progress_card bg-white">
                 <h2 className="text-[6px] mb-[-4px] md:mb-auto text-black md:text-xs font-medium font-[Inter]">
@@ -183,7 +183,7 @@ export default function FitnessDashboard() {
                   <div className="flex flex-row justify-evenly mx-auto gap-1 md:gap-3 lg:gap-5 md:items-center">
                     <div
                       style={{ position: "relative" }}
-                      className="relative w-[65px] h-[65x] md:w-[100px] md:h-[100px]"
+                      className="relative w-[60px] h-[60x] md:w-[100px] md:h-[100px]"
                     >
                       {/* Single Progress Bar with Gradient */}
                       <CircularProgressbar
@@ -241,16 +241,16 @@ export default function FitnessDashboard() {
                       {caloriesCosume_Info.map((item) => (
                         <div
                           key={item.Id}
-                          className="flex flex-row items-center gap-1 md:gap-2 "
+                          className="flex flex-row items-center gap-0.5 md:gap-2 "
                         >
                           <p className="text-green-600 text-[8px] md:text-[9px] md:text-sm">
                             {item.icon}
                           </p>
                           <span className="flex flex-col flex-start">
-                            <p className="text-[9px] md:text-xs">
+                            <p className="text-[7px] md:text-xs">
                               {item.title}
                             </p>
-                            <h5 className="text-[9px] mdtext-sm font-semibold">
+                            <h5 className="text-[7px] mdtext-sm font-semibold">
                               {item.kcalQty}
                             </h5>
                           </span>
@@ -297,8 +297,8 @@ export default function FitnessDashboard() {
               </div>
             </div>
             {/* get every day better card */}
-            <div className="relative top-6 md:top-20 lg:top-28 left-1 md:left-2 lg:left-3 w-[95%]">
-              <div className="rounded-2xl bg-white shadow-2xl p-1 md:p-2 lg:p-3 z-10 w-[150px] md:w-[230px] lg:w-[345px]">
+            <div className="relative top-2 md:top-20 lg:top-28 left-1 md:left-2 lg:left-3 w-[50%] md:w-[95%]">
+              <div className="rounded-2xl bg-white shadow-2xl p-1 md:p-2 lg:p-3 z-10 w-[150px] md:w-[100px] lg:w-[345px]">
                 <span className="flex flex-col gap-0 md:gap-1 lg:gap-2 ">
                   <h2 className="font-[Inter] text-[10px] md:text-xl lg:text-3xl leading-[28px]">
                     Get better every day!
